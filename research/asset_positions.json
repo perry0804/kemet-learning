@@ -1,0 +1,3597 @@
+{
+  "version": 1,
+  "coordinate_convention": "原图像素；左上角为原点。每个 rect 的 x、y、width、height 是矩形左上角和宽高。坐标已经转换至 sources 给出的原图尺寸，不要再次按预览尺寸缩放。",
+  "quality_note": "能力小图矩形按原图视觉定位，已覆盖每行从左到右的所有实体卡图；是大致边界，照片透视会在边缘带入少量纸面。仅定位印刷卡牌小图，不含下面的名字与说明文字。未修改、裁切或生成任何图片。",
+  "sources": {
+    "user_photo_1": {
+      "path": "public/assets/user_photo_1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "colors": [
+        "白",
+        "黑"
+      ],
+      "reference_view_width": 1824,
+      "reference_view_height": 1368
+    },
+    "user_photo_2": {
+      "path": "public/assets/user_photo_2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "colors": [
+        "红",
+        "蓝"
+      ],
+      "reference_view_width": 1824,
+      "reference_view_height": 1368
+    },
+    "user_photo_3": {
+      "path": "public/assets/user_photo_3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "colors": [
+        "琥珀"
+      ],
+      "reference_view_width": 1368,
+      "reference_view_height": 1824
+    },
+    "gods_campaign_photo": {
+      "path": "research/gods_campaign_photo.jpg",
+      "width": 1080,
+      "height": 1080,
+      "source_url": "https://imgcdn.gamefound.com/richtextimage/richtext/ffa84a08-0f81-4ca9-9f0e-2c1fb371f0e4.jpg",
+      "page_url": "https://gamefound.com/en/projects/matagot/kemet-rise-of-the-gods/updates/3",
+      "note": "官方预览六神合照。卡片倾斜并互相遮挡，完整合照适合整体展示；神祇数值以规则正文的来源说明为准。"
+    }
+  },
+  "priority_keys": [
+    "白|1|常规|祭司",
+    "白|1|常规|女祭司",
+    "红|1|常规|冲锋！",
+    "红|2|常规|凤凰",
+    "蓝|2|常规|远古圣象"
+  ],
+  "abilities": [
+    {
+      "key": "白|1|常规|祭司",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 0,
+      "name": "祭司",
+      "color": "白",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 181,
+          "y": 316,
+          "width": 232,
+          "height": 197
+        },
+        {
+          "x": 672,
+          "y": 323,
+          "width": 234,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 181,
+        "y": 316,
+        "width": 232,
+        "height": 197
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|1|常规|女祭司",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 1,
+      "name": "女祭司",
+      "color": "白",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 1161,
+          "y": 332,
+          "width": 228,
+          "height": 201
+        },
+        {
+          "x": 1645,
+          "y": 338,
+          "width": 228,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1161,
+        "y": 332,
+        "width": 228,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|2|常规|魔法支援",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 2,
+      "name": "魔法支援",
+      "color": "白",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 181,
+          "y": 752,
+          "width": 241,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 181,
+        "y": 752,
+        "width": 241,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|2|常规|荒漠沙蛇",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 3,
+      "name": "荒漠沙蛇",
+      "color": "白",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 676,
+          "y": 760,
+          "width": 228,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 676,
+        "y": 760,
+        "width": 228,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|2|常规|预见",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 4,
+      "name": "预见",
+      "color": "白",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 1161,
+          "y": 767,
+          "width": 230,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1161,
+        "y": 767,
+        "width": 230,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|2|常规|神的恩赐",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 5,
+      "name": "神的恩赐",
+      "color": "白",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 1640,
+          "y": 774,
+          "width": 225,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1640,
+        "y": 774,
+        "width": 225,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|3|常规|神之手",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 6,
+      "name": "神之手",
+      "color": "白",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 208,
+          "y": 1275,
+          "width": 230,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 208,
+        "y": 1275,
+        "width": 230,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|3|常规|神圣欲望",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 7,
+      "name": "神圣欲望",
+      "color": "白",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 683,
+          "y": 1280,
+          "width": 221,
+          "height": 197
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 683,
+        "y": 1280,
+        "width": 221,
+        "height": 197
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|3|常规|塔沃瑞特的祭司",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 8,
+      "name": "塔沃瑞特的祭司",
+      "color": "白",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 1156,
+          "y": 1289,
+          "width": 230,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1156,
+        "y": 1289,
+        "width": 230,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|3|常规|主宰",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 9,
+      "name": "主宰",
+      "color": "白",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 1631,
+          "y": 1295,
+          "width": 228,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1631,
+        "y": 1295,
+        "width": 228,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|3|三级替换候选|战略控制",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 10,
+      "name": "战略控制",
+      "color": "白",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 318,
+          "y": 1638,
+          "width": 225,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 318,
+        "y": 1638,
+        "width": 225,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|3|三级替换候选|暗夜仪式",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 11,
+      "name": "暗夜仪式",
+      "color": "白",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 986,
+          "y": 1649,
+          "width": 223,
+          "height": 195
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 986,
+        "y": 1649,
+        "width": 223,
+        "height": 195
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|3|三级替换候选|集群部落",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 12,
+      "name": "集群部落",
+      "color": "白",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 1629,
+          "y": 1658,
+          "width": 223,
+          "height": 195
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1629,
+        "y": 1658,
+        "width": 223,
+        "height": 195
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|4|常规|拉神的祭司",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 13,
+      "name": "拉神的祭司",
+      "color": "白",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 208,
+          "y": 2140,
+          "width": 225,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 208,
+        "y": 2140,
+        "width": 225,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|4|常规|阿蒙神的祭司",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 14,
+      "name": "阿蒙神的祭司",
+      "color": "白",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 679,
+          "y": 2149,
+          "width": 221,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 679,
+        "y": 2149,
+        "width": 221,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|4|常规|木乃伊",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 15,
+      "name": "木乃伊",
+      "color": "白",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 1147,
+          "y": 2157,
+          "width": 223,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1147,
+        "y": 2157,
+        "width": 223,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "白|4|常规|神的旨意",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 16,
+      "name": "神的旨意",
+      "color": "白",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 1618,
+          "y": 2166,
+          "width": 225,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1618,
+        "y": 2166,
+        "width": 225,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|1|常规|剑族佣兵",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 17,
+      "name": "剑族佣兵",
+      "color": "黑",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2144,
+          "y": 349,
+          "width": 225,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2144,
+        "y": 349,
+        "width": 225,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|1|常规|矛族佣兵",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 18,
+      "name": "矛族佣兵",
+      "color": "黑",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2624,
+          "y": 354,
+          "width": 225,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2624,
+        "y": 354,
+        "width": 225,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|1|常规|本地征募",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 19,
+      "name": "本地征募",
+      "color": "黑",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 3106,
+          "y": 360,
+          "width": 225,
+          "height": 208
+        },
+        {
+          "x": 3597,
+          "y": 369,
+          "width": 223,
+          "height": 206
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3106,
+        "y": 360,
+        "width": 225,
+        "height": 208
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|2|常规|战争荣耀",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 20,
+      "name": "战争荣耀",
+      "color": "黑",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2133,
+          "y": 778,
+          "width": 225,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2133,
+        "y": 778,
+        "width": 225,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|2|常规|全力出击",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 21,
+      "name": "全力出击",
+      "color": "黑",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2613,
+          "y": 789,
+          "width": 228,
+          "height": 192
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2613,
+        "y": 789,
+        "width": 228,
+        "height": 192
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|2|常规|羊头狮身斯芬克斯",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 22,
+      "name": "羊头狮身斯芬克斯",
+      "color": "黑",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 3090,
+          "y": 789,
+          "width": 225,
+          "height": 195
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3090,
+        "y": 789,
+        "width": 225,
+        "height": 195
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|2|常规|双重仪式",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 23,
+      "name": "双重仪式",
+      "color": "黑",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 3568,
+          "y": 802,
+          "width": 228,
+          "height": 195
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3568,
+        "y": 802,
+        "width": 228,
+        "height": 195
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|3|常规|鹰头狮身斯芬克斯",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 24,
+      "name": "鹰头狮身斯芬克斯",
+      "color": "黑",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2122,
+          "y": 1355,
+          "width": 225,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2122,
+        "y": 1355,
+        "width": 225,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|3|常规|急速行军",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 25,
+      "name": "急速行军",
+      "color": "黑",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2602,
+          "y": 1359,
+          "width": 225,
+          "height": 197
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2602,
+        "y": 1359,
+        "width": 225,
+        "height": 197
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|3|常规|致命陷阱",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 26,
+      "name": "致命陷阱",
+      "color": "黑",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 3079,
+          "y": 1371,
+          "width": 225,
+          "height": 197
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3079,
+        "y": 1371,
+        "width": 225,
+        "height": 197
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|3|常规|主宰",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 27,
+      "name": "主宰",
+      "color": "黑",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 3557,
+          "y": 1379,
+          "width": 225,
+          "height": 195
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3557,
+        "y": 1379,
+        "width": 225,
+        "height": 195
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|3|三级替换候选|神圣援助",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 28,
+      "name": "神圣援助",
+      "color": "黑",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2199,
+          "y": 1824,
+          "width": 223,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2199,
+        "y": 1824,
+        "width": 223,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|3|三级替换候选|战术增援",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 29,
+      "name": "战术增援",
+      "color": "黑",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2843,
+          "y": 1839,
+          "width": 223,
+          "height": 192
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2843,
+        "y": 1839,
+        "width": 223,
+        "height": 192
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|3|三级替换候选|黑玛瑙之盾",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 30,
+      "name": "黑玛瑙之盾",
+      "color": "黑",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 3557,
+          "y": 1848,
+          "width": 225,
+          "height": 197
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3557,
+        "y": 1848,
+        "width": 225,
+        "height": 197
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|4|常规|灵魂吞噬者",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 31,
+      "name": "灵魂吞噬者",
+      "color": "黑",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2107,
+          "y": 2319,
+          "width": 228,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2107,
+        "y": 2319,
+        "width": 228,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|4|常规|狂野之怒",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 32,
+      "name": "狂野之怒",
+      "color": "黑",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 2589,
+          "y": 2334,
+          "width": 225,
+          "height": 197
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2589,
+        "y": 2334,
+        "width": 225,
+        "height": 197
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|4|常规|神圣之力",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 33,
+      "name": "神圣之力",
+      "color": "黑",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 3068,
+          "y": 2341,
+          "width": 221,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3068,
+        "y": 2341,
+        "width": 221,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "黑|4|常规|神的旨意",
+      "data_file": "research/abilities_white_black.json",
+      "data_index": 34,
+      "name": "神的旨意",
+      "color": "黑",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "rects": [
+        {
+          "x": 3543,
+          "y": 2348,
+          "width": 221,
+          "height": 195
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3543,
+        "y": 2348,
+        "width": 221,
+        "height": 195
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|1|常规|冲锋！",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 0,
+      "name": "冲锋！",
+      "color": "红",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 232,
+          "y": 356,
+          "width": 221,
+          "height": 199
+        },
+        {
+          "x": 696,
+          "y": 347,
+          "width": 228,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 232,
+        "y": 356,
+        "width": 221,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|1|常规|玛芙代特的祭司",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 1,
+      "name": "玛芙代特的祭司",
+      "color": "红",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 1176,
+          "y": 351,
+          "width": 234,
+          "height": 197
+        },
+        {
+          "x": 1669,
+          "y": 354,
+          "width": 232,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1176,
+        "y": 351,
+        "width": 234,
+        "height": 197
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|2|常规|屠杀",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 2,
+      "name": "屠杀",
+      "color": "红",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 234,
+          "y": 763,
+          "width": 221,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 234,
+        "y": 763,
+        "width": 221,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|2|常规|战车风暴",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 3,
+      "name": "战车风暴",
+      "color": "红",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 699,
+          "y": 763,
+          "width": 225,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 699,
+        "y": 763,
+        "width": 225,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|2|常规|凤凰",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 4,
+      "name": "凤凰",
+      "color": "红",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 1172,
+          "y": 758,
+          "width": 234,
+          "height": 206
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1172,
+        "y": 758,
+        "width": 234,
+        "height": 206
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|2|常规|空间传送",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 5,
+      "name": "空间传送",
+      "color": "红",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 1665,
+          "y": 767,
+          "width": 239,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1665,
+        "y": 767,
+        "width": 239,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|3|常规|圣甲虫",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 6,
+      "name": "圣甲虫",
+      "color": "红",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 243,
+          "y": 1333,
+          "width": 223,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 243,
+        "y": 1333,
+        "width": 223,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|3|常规|奈斯之刃",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 7,
+      "name": "奈斯之刃",
+      "color": "红",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 701,
+          "y": 1335,
+          "width": 225,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 701,
+        "y": 1335,
+        "width": 225,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|3|常规|神圣伤痕",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 8,
+      "name": "神圣伤痕",
+      "color": "红",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 1172,
+          "y": 1337,
+          "width": 232,
+          "height": 206
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1172,
+        "y": 1337,
+        "width": 232,
+        "height": 206
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|3|常规|主宰",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 9,
+      "name": "主宰",
+      "color": "红",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 1662,
+          "y": 1344,
+          "width": 230,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1662,
+        "y": 1344,
+        "width": 230,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|3|三级替换候选|全能全知",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 10,
+      "name": "全能全知",
+      "color": "红",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 318,
+          "y": 1742,
+          "width": 219,
+          "height": 195
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 318,
+        "y": 1742,
+        "width": 219,
+        "height": 195
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|3|三级替换候选|神圣公牛",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 11,
+      "name": "神圣公牛",
+      "color": "红",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 968,
+          "y": 1746,
+          "width": 221,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 968,
+        "y": 1746,
+        "width": 221,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|3|三级替换候选|战略控制",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 12,
+      "name": "战略控制",
+      "color": "红",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 1658,
+          "y": 1751,
+          "width": 232,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1658,
+        "y": 1751,
+        "width": 232,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|4|常规|巨型毒蝎",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 13,
+      "name": "巨型毒蝎",
+      "color": "红",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 267,
+          "y": 2248,
+          "width": 210,
+          "height": 206
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 267,
+        "y": 2248,
+        "width": 210,
+        "height": 206
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|4|常规|先发制人",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 14,
+      "name": "先发制人",
+      "color": "红",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 705,
+          "y": 2272,
+          "width": 221,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 705,
+        "y": 2272,
+        "width": 221,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|4|常规|奇袭",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 15,
+      "name": "奇袭",
+      "color": "红",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 1172,
+          "y": 2288,
+          "width": 228,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1172,
+        "y": 2288,
+        "width": 228,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "红|4|常规|神的旨意",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 16,
+      "name": "神的旨意",
+      "color": "红",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 2295,
+          "width": 237,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1651,
+        "y": 2295,
+        "width": 237,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|1|常规|招募令",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 17,
+      "name": "招募令",
+      "color": "蓝",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2164,
+          "y": 360,
+          "width": 234,
+          "height": 199
+        },
+        {
+          "x": 2653,
+          "y": 363,
+          "width": 230,
+          "height": 208
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2164,
+        "y": 360,
+        "width": 234,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|1|常规|防御！",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 18,
+      "name": "防御！",
+      "color": "蓝",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 3135,
+          "y": 380,
+          "width": 225,
+          "height": 201
+        },
+        {
+          "x": 3601,
+          "y": 396,
+          "width": 219,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3135,
+        "y": 380,
+        "width": 225,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|2|常规|强化祈祷",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 19,
+      "name": "强化祈祷",
+      "color": "蓝",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2162,
+          "y": 769,
+          "width": 230,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2162,
+        "y": 769,
+        "width": 230,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|2|常规|远古圣象",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 20,
+      "name": "远古圣象",
+      "color": "蓝",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2653,
+          "y": 774,
+          "width": 228,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2653,
+        "y": 774,
+        "width": 228,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|2|常规|龟甲防御",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 21,
+      "name": "龟甲防御",
+      "color": "蓝",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 3135,
+          "y": 785,
+          "width": 217,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3135,
+        "y": 785,
+        "width": 217,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|2|常规|奈斯之盾",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 22,
+      "name": "奈斯之盾",
+      "color": "蓝",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 3594,
+          "y": 802,
+          "width": 225,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3594,
+        "y": 802,
+        "width": 225,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|3|常规|人多势众",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 23,
+      "name": "人多势众",
+      "color": "蓝",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2155,
+          "y": 1289,
+          "width": 230,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2155,
+        "y": 1289,
+        "width": 230,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|3|常规|以守为攻",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 24,
+      "name": "以守为攻",
+      "color": "蓝",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2648,
+          "y": 1291,
+          "width": 230,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2648,
+        "y": 1291,
+        "width": 230,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|3|常规|秘密侦查",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 25,
+      "name": "秘密侦查",
+      "color": "蓝",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 3130,
+          "y": 1302,
+          "width": 221,
+          "height": 197
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3130,
+        "y": 1302,
+        "width": 221,
+        "height": 197
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|3|常规|主宰",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 26,
+      "name": "主宰",
+      "color": "蓝",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 3585,
+          "y": 1315,
+          "width": 223,
+          "height": 192
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3585,
+        "y": 1315,
+        "width": 223,
+        "height": 192
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|3|三级替换候选|完美建筑",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 27,
+      "name": "完美建筑",
+      "color": "蓝",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2206,
+          "y": 1680,
+          "width": 228,
+          "height": 203
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2206,
+        "y": 1680,
+        "width": 228,
+        "height": 203
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|3|三级替换候选|巨型沙虫",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 28,
+      "name": "巨型沙虫",
+      "color": "蓝",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2898,
+          "y": 1695,
+          "width": 219,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2898,
+        "y": 1695,
+        "width": 219,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|3|三级替换候选|巷战",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 29,
+      "name": "巷战",
+      "color": "蓝",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 3585,
+          "y": 1702,
+          "width": 219,
+          "height": 195
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3585,
+        "y": 1702,
+        "width": 219,
+        "height": 195
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|4|常规|全力增援",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 30,
+      "name": "全力增援",
+      "color": "蓝",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2142,
+          "y": 2334,
+          "width": 228,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2142,
+        "y": 2334,
+        "width": 228,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|4|常规|人面狮身斯芬克斯",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 31,
+      "name": "人面狮身斯芬克斯",
+      "color": "蓝",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 2637,
+          "y": 2350,
+          "width": 228,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2637,
+        "y": 2350,
+        "width": 228,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|4|常规|神圣意志",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 32,
+      "name": "神圣意志",
+      "color": "蓝",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 3117,
+          "y": 2348,
+          "width": 230,
+          "height": 199
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3117,
+        "y": 2348,
+        "width": 230,
+        "height": 199
+      },
+      "notes": ""
+    },
+    {
+      "key": "蓝|4|常规|神的旨意",
+      "data_file": "research/abilities_red_blue.json",
+      "data_index": 33,
+      "name": "神的旨意",
+      "color": "蓝",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "rects": [
+        {
+          "x": 3588,
+          "y": 2345,
+          "width": 223,
+          "height": 201
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 3588,
+        "y": 2345,
+        "width": 223,
+        "height": 201
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|1|常规|仆从（移动与港口，姓名待核）",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 0,
+      "name": "仆从（移动与港口，姓名待核）",
+      "color": "琥珀",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 374,
+          "y": 365,
+          "width": 303,
+          "height": 265
+        },
+        {
+          "x": 1030,
+          "y": 380,
+          "width": 314,
+          "height": 274
+        }
+      ],
+      "preferred_rect_index": 1,
+      "thumbnail_rect": {
+        "x": 1030,
+        "y": 380,
+        "width": 314,
+        "height": 274
+      },
+      "notes": "第一张重复卡反光明显，推荐第二张。"
+    },
+    {
+      "key": "琥珀|1|常规|仆从玛萨哈塔",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 1,
+      "name": "仆从玛萨哈塔",
+      "color": "琥珀",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 1693,
+          "y": 402,
+          "width": 314,
+          "height": 279
+        },
+        {
+          "x": 2350,
+          "y": 418,
+          "width": 309,
+          "height": 279
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1693,
+        "y": 402,
+        "width": 314,
+        "height": 279
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|2|常规|豺狼",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 2,
+      "name": "豺狼",
+      "color": "琥珀",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 343,
+          "y": 948,
+          "width": 316,
+          "height": 272
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 343,
+        "y": 948,
+        "width": 316,
+        "height": 272
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|2|常规|仆从赫卡伊布",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 3,
+      "name": "仆从赫卡伊布",
+      "color": "琥珀",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 1006,
+          "y": 970,
+          "width": 318,
+          "height": 274
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1006,
+        "y": 970,
+        "width": 318,
+        "height": 274
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|2|常规|仆从巴卡坦",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 4,
+      "name": "仆从巴卡坦",
+      "color": "琥珀",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 1671,
+          "y": 993,
+          "width": 314,
+          "height": 274
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1671,
+        "y": 993,
+        "width": 314,
+        "height": 274
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|2|常规|强制召回",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 5,
+      "name": "强制召回",
+      "color": "琥珀",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 2332,
+          "y": 1019,
+          "width": 307,
+          "height": 274
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2332,
+        "y": 1019,
+        "width": 307,
+        "height": 274
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|3|常规|坚守阵地",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 6,
+      "name": "坚守阵地",
+      "color": "琥珀",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 309,
+          "y": 1691,
+          "width": 312,
+          "height": 272
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 309,
+        "y": 1691,
+        "width": 312,
+        "height": 272
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|3|常规|战利品",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 7,
+      "name": "战利品",
+      "color": "琥珀",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 979,
+          "y": 1711,
+          "width": 323,
+          "height": 281
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 979,
+        "y": 1711,
+        "width": 323,
+        "height": 281
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|3|常规|仆从帕塔莫斯",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 8,
+      "name": "仆从帕塔莫斯",
+      "color": "琥珀",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 1735,
+          "width": 318,
+          "height": 279
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1651,
+        "y": 1735,
+        "width": 318,
+        "height": 279
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|3|常规|主宰",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 9,
+      "name": "主宰",
+      "color": "琥珀",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 2317,
+          "y": 1760,
+          "width": 309,
+          "height": 272
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2317,
+        "y": 1760,
+        "width": 309,
+        "height": 272
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|3|三级替换候选|至高权力",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 10,
+      "name": "至高权力",
+      "color": "琥珀",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 365,
+          "y": 2482,
+          "width": 316,
+          "height": 279
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 365,
+        "y": 2482,
+        "width": 316,
+        "height": 279
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|3|三级替换候选|河马",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 11,
+      "name": "河马",
+      "color": "琥珀",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 1298,
+          "y": 2511,
+          "width": 316,
+          "height": 285
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1298,
+        "y": 2511,
+        "width": 316,
+        "height": 285
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|3|三级替换候选|结构调整",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 12,
+      "name": "结构调整",
+      "color": "琥珀",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 2303,
+          "y": 2540,
+          "width": 312,
+          "height": 285
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2303,
+        "y": 2540,
+        "width": 312,
+        "height": 285
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|4|常规|仆从梅里普塔赫",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 13,
+      "name": "仆从梅里普塔赫",
+      "color": "琥珀",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 250,
+          "y": 3154,
+          "width": 323,
+          "height": 283
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 250,
+        "y": 3154,
+        "width": 323,
+        "height": 283
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|4|常规|猫",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 14,
+      "name": "猫",
+      "color": "琥珀",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 931,
+          "y": 3179,
+          "width": 327,
+          "height": 290
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 931,
+        "y": 3179,
+        "width": 327,
+        "height": 290
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|4|常规|勇士参拜",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 15,
+      "name": "勇士参拜",
+      "color": "琥珀",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 1607,
+          "y": 3207,
+          "width": 323,
+          "height": 290
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 1607,
+        "y": 3207,
+        "width": 323,
+        "height": 290
+      },
+      "notes": ""
+    },
+    {
+      "key": "琥珀|4|常规|神的旨意",
+      "data_file": "research/abilities_amber.json",
+      "data_index": 16,
+      "name": "神的旨意",
+      "color": "琥珀",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "rects": [
+        {
+          "x": 2290,
+          "y": 3236,
+          "width": 323,
+          "height": 285
+        }
+      ],
+      "preferred_rect_index": 0,
+      "thumbnail_rect": {
+        "x": 2290,
+        "y": 3236,
+        "width": 323,
+        "height": 285
+      },
+      "notes": ""
+    }
+  ],
+  "rows": [
+    {
+      "color": "白",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "祭司",
+          "copy_number": 1,
+          "rect": {
+            "x": 181,
+            "y": 316,
+            "width": 232,
+            "height": 197
+          }
+        },
+        {
+          "name": "祭司",
+          "copy_number": 2,
+          "rect": {
+            "x": 672,
+            "y": 323,
+            "width": 234,
+            "height": 201
+          }
+        },
+        {
+          "name": "女祭司",
+          "copy_number": 1,
+          "rect": {
+            "x": 1161,
+            "y": 332,
+            "width": 228,
+            "height": 201
+          }
+        },
+        {
+          "name": "女祭司",
+          "copy_number": 2,
+          "rect": {
+            "x": 1645,
+            "y": 338,
+            "width": 228,
+            "height": 203
+          }
+        }
+      ]
+    },
+    {
+      "color": "白",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "魔法支援",
+          "copy_number": 1,
+          "rect": {
+            "x": 181,
+            "y": 752,
+            "width": 241,
+            "height": 201
+          }
+        },
+        {
+          "name": "荒漠沙蛇",
+          "copy_number": 1,
+          "rect": {
+            "x": 676,
+            "y": 760,
+            "width": 228,
+            "height": 201
+          }
+        },
+        {
+          "name": "预见",
+          "copy_number": 1,
+          "rect": {
+            "x": 1161,
+            "y": 767,
+            "width": 230,
+            "height": 203
+          }
+        },
+        {
+          "name": "神的恩赐",
+          "copy_number": 1,
+          "rect": {
+            "x": 1640,
+            "y": 774,
+            "width": 225,
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "color": "白",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "神之手",
+          "copy_number": 1,
+          "rect": {
+            "x": 208,
+            "y": 1275,
+            "width": 230,
+            "height": 199
+          }
+        },
+        {
+          "name": "神圣欲望",
+          "copy_number": 1,
+          "rect": {
+            "x": 683,
+            "y": 1280,
+            "width": 221,
+            "height": 197
+          }
+        },
+        {
+          "name": "塔沃瑞特的祭司",
+          "copy_number": 1,
+          "rect": {
+            "x": 1156,
+            "y": 1289,
+            "width": 230,
+            "height": 199
+          }
+        },
+        {
+          "name": "主宰",
+          "copy_number": 1,
+          "rect": {
+            "x": 1631,
+            "y": 1295,
+            "width": 228,
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "color": "白",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "战略控制",
+          "copy_number": 1,
+          "rect": {
+            "x": 318,
+            "y": 1638,
+            "width": 225,
+            "height": 199
+          }
+        },
+        {
+          "name": "暗夜仪式",
+          "copy_number": 1,
+          "rect": {
+            "x": 986,
+            "y": 1649,
+            "width": 223,
+            "height": 195
+          }
+        },
+        {
+          "name": "集群部落",
+          "copy_number": 1,
+          "rect": {
+            "x": 1629,
+            "y": 1658,
+            "width": 223,
+            "height": 195
+          }
+        }
+      ]
+    },
+    {
+      "color": "白",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "拉神的祭司",
+          "copy_number": 1,
+          "rect": {
+            "x": 208,
+            "y": 2140,
+            "width": 225,
+            "height": 199
+          }
+        },
+        {
+          "name": "阿蒙神的祭司",
+          "copy_number": 1,
+          "rect": {
+            "x": 679,
+            "y": 2149,
+            "width": 221,
+            "height": 199
+          }
+        },
+        {
+          "name": "木乃伊",
+          "copy_number": 1,
+          "rect": {
+            "x": 1147,
+            "y": 2157,
+            "width": 223,
+            "height": 199
+          }
+        },
+        {
+          "name": "神的旨意",
+          "copy_number": 1,
+          "rect": {
+            "x": 1618,
+            "y": 2166,
+            "width": 225,
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "color": "黑",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "剑族佣兵",
+          "copy_number": 1,
+          "rect": {
+            "x": 2144,
+            "y": 349,
+            "width": 225,
+            "height": 201
+          }
+        },
+        {
+          "name": "矛族佣兵",
+          "copy_number": 1,
+          "rect": {
+            "x": 2624,
+            "y": 354,
+            "width": 225,
+            "height": 203
+          }
+        },
+        {
+          "name": "本地征募",
+          "copy_number": 1,
+          "rect": {
+            "x": 3106,
+            "y": 360,
+            "width": 225,
+            "height": 208
+          }
+        },
+        {
+          "name": "本地征募",
+          "copy_number": 2,
+          "rect": {
+            "x": 3597,
+            "y": 369,
+            "width": 223,
+            "height": 206
+          }
+        }
+      ]
+    },
+    {
+      "color": "黑",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "战争荣耀",
+          "copy_number": 1,
+          "rect": {
+            "x": 2133,
+            "y": 778,
+            "width": 225,
+            "height": 201
+          }
+        },
+        {
+          "name": "全力出击",
+          "copy_number": 1,
+          "rect": {
+            "x": 2613,
+            "y": 789,
+            "width": 228,
+            "height": 192
+          }
+        },
+        {
+          "name": "羊头狮身斯芬克斯",
+          "copy_number": 1,
+          "rect": {
+            "x": 3090,
+            "y": 789,
+            "width": 225,
+            "height": 195
+          }
+        },
+        {
+          "name": "双重仪式",
+          "copy_number": 1,
+          "rect": {
+            "x": 3568,
+            "y": 802,
+            "width": 228,
+            "height": 195
+          }
+        }
+      ]
+    },
+    {
+      "color": "黑",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "鹰头狮身斯芬克斯",
+          "copy_number": 1,
+          "rect": {
+            "x": 2122,
+            "y": 1355,
+            "width": 225,
+            "height": 201
+          }
+        },
+        {
+          "name": "急速行军",
+          "copy_number": 1,
+          "rect": {
+            "x": 2602,
+            "y": 1359,
+            "width": 225,
+            "height": 197
+          }
+        },
+        {
+          "name": "致命陷阱",
+          "copy_number": 1,
+          "rect": {
+            "x": 3079,
+            "y": 1371,
+            "width": 225,
+            "height": 197
+          }
+        },
+        {
+          "name": "主宰",
+          "copy_number": 1,
+          "rect": {
+            "x": 3557,
+            "y": 1379,
+            "width": 225,
+            "height": 195
+          }
+        }
+      ]
+    },
+    {
+      "color": "黑",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "神圣援助",
+          "copy_number": 1,
+          "rect": {
+            "x": 2199,
+            "y": 1824,
+            "width": 223,
+            "height": 201
+          }
+        },
+        {
+          "name": "战术增援",
+          "copy_number": 1,
+          "rect": {
+            "x": 2843,
+            "y": 1839,
+            "width": 223,
+            "height": 192
+          }
+        },
+        {
+          "name": "黑玛瑙之盾",
+          "copy_number": 1,
+          "rect": {
+            "x": 3557,
+            "y": 1848,
+            "width": 225,
+            "height": 197
+          }
+        }
+      ]
+    },
+    {
+      "color": "黑",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_1",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "灵魂吞噬者",
+          "copy_number": 1,
+          "rect": {
+            "x": 2107,
+            "y": 2319,
+            "width": 228,
+            "height": 199
+          }
+        },
+        {
+          "name": "狂野之怒",
+          "copy_number": 1,
+          "rect": {
+            "x": 2589,
+            "y": 2334,
+            "width": 225,
+            "height": 197
+          }
+        },
+        {
+          "name": "神圣之力",
+          "copy_number": 1,
+          "rect": {
+            "x": 3068,
+            "y": 2341,
+            "width": 221,
+            "height": 199
+          }
+        },
+        {
+          "name": "神的旨意",
+          "copy_number": 1,
+          "rect": {
+            "x": 3543,
+            "y": 2348,
+            "width": 221,
+            "height": 195
+          }
+        }
+      ]
+    },
+    {
+      "color": "红",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "冲锋！",
+          "copy_number": 1,
+          "rect": {
+            "x": 232,
+            "y": 356,
+            "width": 221,
+            "height": 199
+          }
+        },
+        {
+          "name": "冲锋！",
+          "copy_number": 2,
+          "rect": {
+            "x": 696,
+            "y": 347,
+            "width": 228,
+            "height": 203
+          }
+        },
+        {
+          "name": "玛芙代特的祭司",
+          "copy_number": 1,
+          "rect": {
+            "x": 1176,
+            "y": 351,
+            "width": 234,
+            "height": 197
+          }
+        },
+        {
+          "name": "玛芙代特的祭司",
+          "copy_number": 2,
+          "rect": {
+            "x": 1669,
+            "y": 354,
+            "width": 232,
+            "height": 199
+          }
+        }
+      ]
+    },
+    {
+      "color": "红",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "屠杀",
+          "copy_number": 1,
+          "rect": {
+            "x": 234,
+            "y": 763,
+            "width": 221,
+            "height": 203
+          }
+        },
+        {
+          "name": "战车风暴",
+          "copy_number": 1,
+          "rect": {
+            "x": 699,
+            "y": 763,
+            "width": 225,
+            "height": 201
+          }
+        },
+        {
+          "name": "凤凰",
+          "copy_number": 1,
+          "rect": {
+            "x": 1172,
+            "y": 758,
+            "width": 234,
+            "height": 206
+          }
+        },
+        {
+          "name": "空间传送",
+          "copy_number": 1,
+          "rect": {
+            "x": 1665,
+            "y": 767,
+            "width": 239,
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "color": "红",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "圣甲虫",
+          "copy_number": 1,
+          "rect": {
+            "x": 243,
+            "y": 1333,
+            "width": 223,
+            "height": 203
+          }
+        },
+        {
+          "name": "奈斯之刃",
+          "copy_number": 1,
+          "rect": {
+            "x": 701,
+            "y": 1335,
+            "width": 225,
+            "height": 203
+          }
+        },
+        {
+          "name": "神圣伤痕",
+          "copy_number": 1,
+          "rect": {
+            "x": 1172,
+            "y": 1337,
+            "width": 232,
+            "height": 206
+          }
+        },
+        {
+          "name": "主宰",
+          "copy_number": 1,
+          "rect": {
+            "x": 1662,
+            "y": 1344,
+            "width": 230,
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "color": "红",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "全能全知",
+          "copy_number": 1,
+          "rect": {
+            "x": 318,
+            "y": 1742,
+            "width": 219,
+            "height": 195
+          }
+        },
+        {
+          "name": "神圣公牛",
+          "copy_number": 1,
+          "rect": {
+            "x": 968,
+            "y": 1746,
+            "width": 221,
+            "height": 199
+          }
+        },
+        {
+          "name": "战略控制",
+          "copy_number": 1,
+          "rect": {
+            "x": 1658,
+            "y": 1751,
+            "width": 232,
+            "height": 203
+          }
+        }
+      ]
+    },
+    {
+      "color": "红",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "巨型毒蝎",
+          "copy_number": 1,
+          "rect": {
+            "x": 267,
+            "y": 2248,
+            "width": 210,
+            "height": 206
+          }
+        },
+        {
+          "name": "先发制人",
+          "copy_number": 1,
+          "rect": {
+            "x": 705,
+            "y": 2272,
+            "width": 221,
+            "height": 201
+          }
+        },
+        {
+          "name": "奇袭",
+          "copy_number": 1,
+          "rect": {
+            "x": 1172,
+            "y": 2288,
+            "width": 228,
+            "height": 203
+          }
+        },
+        {
+          "name": "神的旨意",
+          "copy_number": 1,
+          "rect": {
+            "x": 1651,
+            "y": 2295,
+            "width": 237,
+            "height": 203
+          }
+        }
+      ]
+    },
+    {
+      "color": "蓝",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "招募令",
+          "copy_number": 1,
+          "rect": {
+            "x": 2164,
+            "y": 360,
+            "width": 234,
+            "height": 199
+          }
+        },
+        {
+          "name": "招募令",
+          "copy_number": 2,
+          "rect": {
+            "x": 2653,
+            "y": 363,
+            "width": 230,
+            "height": 208
+          }
+        },
+        {
+          "name": "防御！",
+          "copy_number": 1,
+          "rect": {
+            "x": 3135,
+            "y": 380,
+            "width": 225,
+            "height": 201
+          }
+        },
+        {
+          "name": "防御！",
+          "copy_number": 2,
+          "rect": {
+            "x": 3601,
+            "y": 396,
+            "width": 219,
+            "height": 203
+          }
+        }
+      ]
+    },
+    {
+      "color": "蓝",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "强化祈祷",
+          "copy_number": 1,
+          "rect": {
+            "x": 2162,
+            "y": 769,
+            "width": 230,
+            "height": 199
+          }
+        },
+        {
+          "name": "远古圣象",
+          "copy_number": 1,
+          "rect": {
+            "x": 2653,
+            "y": 774,
+            "width": 228,
+            "height": 199
+          }
+        },
+        {
+          "name": "龟甲防御",
+          "copy_number": 1,
+          "rect": {
+            "x": 3135,
+            "y": 785,
+            "width": 217,
+            "height": 201
+          }
+        },
+        {
+          "name": "奈斯之盾",
+          "copy_number": 1,
+          "rect": {
+            "x": 3594,
+            "y": 802,
+            "width": 225,
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "color": "蓝",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "人多势众",
+          "copy_number": 1,
+          "rect": {
+            "x": 2155,
+            "y": 1289,
+            "width": 230,
+            "height": 199
+          }
+        },
+        {
+          "name": "以守为攻",
+          "copy_number": 1,
+          "rect": {
+            "x": 2648,
+            "y": 1291,
+            "width": 230,
+            "height": 203
+          }
+        },
+        {
+          "name": "秘密侦查",
+          "copy_number": 1,
+          "rect": {
+            "x": 3130,
+            "y": 1302,
+            "width": 221,
+            "height": 197
+          }
+        },
+        {
+          "name": "主宰",
+          "copy_number": 1,
+          "rect": {
+            "x": 3585,
+            "y": 1315,
+            "width": 223,
+            "height": 192
+          }
+        }
+      ]
+    },
+    {
+      "color": "蓝",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "完美建筑",
+          "copy_number": 1,
+          "rect": {
+            "x": 2206,
+            "y": 1680,
+            "width": 228,
+            "height": 203
+          }
+        },
+        {
+          "name": "巨型沙虫",
+          "copy_number": 1,
+          "rect": {
+            "x": 2898,
+            "y": 1695,
+            "width": 219,
+            "height": 199
+          }
+        },
+        {
+          "name": "巷战",
+          "copy_number": 1,
+          "rect": {
+            "x": 3585,
+            "y": 1702,
+            "width": 219,
+            "height": 195
+          }
+        }
+      ]
+    },
+    {
+      "color": "蓝",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_2",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "全力增援",
+          "copy_number": 1,
+          "rect": {
+            "x": 2142,
+            "y": 2334,
+            "width": 228,
+            "height": 201
+          }
+        },
+        {
+          "name": "人面狮身斯芬克斯",
+          "copy_number": 1,
+          "rect": {
+            "x": 2637,
+            "y": 2350,
+            "width": 228,
+            "height": 201
+          }
+        },
+        {
+          "name": "神圣意志",
+          "copy_number": 1,
+          "rect": {
+            "x": 3117,
+            "y": 2348,
+            "width": 230,
+            "height": 199
+          }
+        },
+        {
+          "name": "神的旨意",
+          "copy_number": 1,
+          "rect": {
+            "x": 3588,
+            "y": 2345,
+            "width": 223,
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "color": "琥珀",
+      "level": 1,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "仆从（移动与港口，姓名待核）",
+          "copy_number": 1,
+          "rect": {
+            "x": 374,
+            "y": 365,
+            "width": 303,
+            "height": 265
+          }
+        },
+        {
+          "name": "仆从（移动与港口，姓名待核）",
+          "copy_number": 2,
+          "rect": {
+            "x": 1030,
+            "y": 380,
+            "width": 314,
+            "height": 274
+          }
+        },
+        {
+          "name": "仆从玛萨哈塔",
+          "copy_number": 1,
+          "rect": {
+            "x": 1693,
+            "y": 402,
+            "width": 314,
+            "height": 279
+          }
+        },
+        {
+          "name": "仆从玛萨哈塔",
+          "copy_number": 2,
+          "rect": {
+            "x": 2350,
+            "y": 418,
+            "width": 309,
+            "height": 279
+          }
+        }
+      ]
+    },
+    {
+      "color": "琥珀",
+      "level": 2,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "豺狼",
+          "copy_number": 1,
+          "rect": {
+            "x": 343,
+            "y": 948,
+            "width": 316,
+            "height": 272
+          }
+        },
+        {
+          "name": "仆从赫卡伊布",
+          "copy_number": 1,
+          "rect": {
+            "x": 1006,
+            "y": 970,
+            "width": 318,
+            "height": 274
+          }
+        },
+        {
+          "name": "仆从巴卡坦",
+          "copy_number": 1,
+          "rect": {
+            "x": 1671,
+            "y": 993,
+            "width": 314,
+            "height": 274
+          }
+        },
+        {
+          "name": "强制召回",
+          "copy_number": 1,
+          "rect": {
+            "x": 2332,
+            "y": 1019,
+            "width": 307,
+            "height": 274
+          }
+        }
+      ]
+    },
+    {
+      "color": "琥珀",
+      "level": 3,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "坚守阵地",
+          "copy_number": 1,
+          "rect": {
+            "x": 309,
+            "y": 1691,
+            "width": 312,
+            "height": 272
+          }
+        },
+        {
+          "name": "战利品",
+          "copy_number": 1,
+          "rect": {
+            "x": 979,
+            "y": 1711,
+            "width": 323,
+            "height": 281
+          }
+        },
+        {
+          "name": "仆从帕塔莫斯",
+          "copy_number": 1,
+          "rect": {
+            "x": 1651,
+            "y": 1735,
+            "width": 318,
+            "height": 279
+          }
+        },
+        {
+          "name": "主宰",
+          "copy_number": 1,
+          "rect": {
+            "x": 2317,
+            "y": 1760,
+            "width": 309,
+            "height": 272
+          }
+        }
+      ]
+    },
+    {
+      "color": "琥珀",
+      "level": 3,
+      "category": "三级替换候选",
+      "source_id": "user_photo_3",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "至高权力",
+          "copy_number": 1,
+          "rect": {
+            "x": 365,
+            "y": 2482,
+            "width": 316,
+            "height": 279
+          }
+        },
+        {
+          "name": "河马",
+          "copy_number": 1,
+          "rect": {
+            "x": 1298,
+            "y": 2511,
+            "width": 316,
+            "height": 285
+          }
+        },
+        {
+          "name": "结构调整",
+          "copy_number": 1,
+          "rect": {
+            "x": 2303,
+            "y": 2540,
+            "width": 312,
+            "height": 285
+          }
+        }
+      ]
+    },
+    {
+      "color": "琥珀",
+      "level": 4,
+      "category": "常规",
+      "source_id": "user_photo_3",
+      "order": "left_to_right",
+      "cards": [
+        {
+          "name": "仆从梅里普塔赫",
+          "copy_number": 1,
+          "rect": {
+            "x": 250,
+            "y": 3154,
+            "width": 323,
+            "height": 283
+          }
+        },
+        {
+          "name": "猫",
+          "copy_number": 1,
+          "rect": {
+            "x": 931,
+            "y": 3179,
+            "width": 327,
+            "height": 290
+          }
+        },
+        {
+          "name": "勇士参拜",
+          "copy_number": 1,
+          "rect": {
+            "x": 1607,
+            "y": 3207,
+            "width": 323,
+            "height": 290
+          }
+        },
+        {
+          "name": "神的旨意",
+          "copy_number": 1,
+          "rect": {
+            "x": 2290,
+            "y": 3236,
+            "width": 323,
+            "height": 285
+          }
+        }
+      ]
+    }
+  ],
+  "gods": [
+    {
+      "name": "Bastet",
+      "name_zh": "巴斯特",
+      "art_rect": {
+        "x": 123,
+        "y": 251,
+        "width": 201,
+        "height": 164
+      },
+      "source_id": "gods_campaign_photo",
+      "notes": "合照中该神的画面窗口；原卡倾斜，窗口可能包含少量背景或卡面图标，不应用作数值证据。"
+    },
+    {
+      "name": "Sobek",
+      "name_zh": "索贝克",
+      "art_rect": {
+        "x": 331,
+        "y": 133,
+        "width": 215,
+        "height": 119
+      },
+      "source_id": "gods_campaign_photo",
+      "notes": "合照中该神的画面窗口；原卡倾斜，窗口可能包含少量背景或卡面图标，不应用作数值证据。"
+    },
+    {
+      "name": "Seth",
+      "name_zh": "赛特",
+      "art_rect": {
+        "x": 647,
+        "y": 205,
+        "width": 183,
+        "height": 143
+      },
+      "source_id": "gods_campaign_photo",
+      "notes": "合照中该神的画面窗口；原卡倾斜，窗口可能包含少量背景或卡面图标，不应用作数值证据。"
+    },
+    {
+      "name": "Ouadjet",
+      "name_zh": "瓦吉特",
+      "art_rect": {
+        "x": 217,
+        "y": 583,
+        "width": 221,
+        "height": 209
+      },
+      "source_id": "gods_campaign_photo",
+      "notes": "合照中该神的画面窗口；原卡倾斜，窗口可能包含少量背景或卡面图标，不应用作数值证据。"
+    },
+    {
+      "name": "Horus",
+      "name_zh": "荷鲁斯",
+      "art_rect": {
+        "x": 429,
+        "y": 407,
+        "width": 235,
+        "height": 223
+      },
+      "source_id": "gods_campaign_photo",
+      "notes": "合照中该神的画面窗口；原卡倾斜，窗口可能包含少量背景或卡面图标，不应用作数值证据。"
+    },
+    {
+      "name": "Anubis",
+      "name_zh": "阿努比斯",
+      "art_rect": {
+        "x": 749,
+        "y": 544,
+        "width": 229,
+        "height": 201
+      },
+      "source_id": "gods_campaign_photo",
+      "notes": "合照中该神的画面窗口；原卡倾斜，窗口可能包含少量背景或卡面图标，不应用作数值证据。"
+    }
+  ]
+}

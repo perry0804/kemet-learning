@@ -1,0 +1,109 @@
+[
+  {
+    "id": "war_rage",
+    "name": "战争怒意",
+    "phase": "battle",
+    "cost": 0,
+    "count": 5,
+    "effect": "本军团在本次战斗获得＋1战力。",
+    "strength": 1
+  },
+  {
+    "id": "bloody_battle",
+    "name": "浴血战斗",
+    "phase": "battle",
+    "cost": 0,
+    "count": 3,
+    "effect": "本军团在本次战斗获得＋1普通伤害。",
+    "damage": 1
+  },
+  {
+    "id": "bronze_wall",
+    "name": "青铜之墙",
+    "phase": "battle",
+    "cost": 0,
+    "count": 3,
+    "effect": "本军团在本次战斗获得＋1普通防御。",
+    "shield": 1
+  },
+  {
+    "id": "tactical_support",
+    "name": "战术支援",
+    "phase": "day",
+    "cost": 0,
+    "count": 4,
+    "effect": "向自己的城区和／或自己的军团免费添加总计至多2个士兵。可能触发战斗，按招募行动的有关规则处理。",
+    "recruit": 2
+  },
+  {
+    "id": "war_fury",
+    "name": "战争狂怒",
+    "phase": "battle",
+    "cost": 1,
+    "count": 2,
+    "effect": "本军团在本次战斗获得＋2战力。",
+    "strength": 2
+  },
+  {
+    "id": "bloodbath",
+    "name": "血洗",
+    "phase": "battle",
+    "cost": 1,
+    "count": 2,
+    "effect": "本军团在本次战斗获得＋2普通伤害。",
+    "damage": 2
+  },
+  {
+    "id": "iron_wall",
+    "name": "钢铁之墙",
+    "phase": "battle",
+    "cost": 1,
+    "count": 2,
+    "effect": "本军团在本次战斗获得＋2普通防御。",
+    "shield": 2
+  },
+  {
+    "id": "raining_fire",
+    "name": "火雨",
+    "phase": "day",
+    "cost": 1,
+    "count": 4,
+    "effect": "从一个对手军团中移除1个士兵。",
+    "rain": true
+  },
+  {
+    "id": "transfer",
+    "name": "传送",
+    "phase": "move",
+    "cost": 0,
+    "count": 3,
+    "effect": "本次移动行动中，该军团可从任意地区免费传送到有方尖碑的地区。",
+    "transfer": true
+  },
+  {
+    "id": "swiftness",
+    "name": "迅捷",
+    "phase": "move",
+    "cost": 0,
+    "count": 2,
+    "effect": "在自己的移动行动开始时，本军团获得＋1普通移动。",
+    "move": 1
+  },
+  {
+    "id": "prayer",
+    "name": "祈祷",
+    "phase": "day",
+    "cost": 0,
+    "count": 3,
+    "effect": "获得2点祈祷值。",
+    "pp": 2
+  },
+  {
+    "id": "diversion",
+    "name": "佯动",
+    "phase": "battle",
+    "cost": 0,
+    "count": 0,
+    "effect": "没有实际效果；揭示后收回手中，不可用于其他效果的弃牌。"
+  }
+]

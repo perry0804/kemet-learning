@@ -1,0 +1,1641 @@
+
+=== PAGE 1 ===
+1
+RULEBOOK
+
+=== PAGE 2 ===
+2
+A GAme  by  JAcques  b Ariot  And  Guill Aume  m ontiAGe ,  
+illustr Ated  by  Pierre  s Ant AmAriA ,  PAsc Al  q uidA ult ,  e mile  d enis  And  m ehdi  b oukhezzer ,
+for  2 to  6 Pl Ayers ,  AGes  14+.  GAme  dur Ation : 90 minutes
+In the mythical age of ancient Egypt, powerful gods deploy their forces into battles for dominance of the land! Deep in the vast desert, and in the shadows 
+of enormous temples, they use their many powers to build their armies, summon mythological creatures, and obtain victory. The goal of these battles is to 
+crush all rival gods, and through the resulting fame, win the eternal devotion of the people of Egypt!
+Kemet may be played in three modes: Classic,  Teams,  or Solo.  In all cases,  each player takes control of an Egyptian god: Anubis,  Bastet,  
+Horus,  Ouadjet,  Sobek,  or Seth,  as they struggle for power using armies from their faction.
+The following rules apply to the Classic Mode,  which may be played up to 6 players.  The other modes follow most of these rules.
+The Team Mode allows players to fight in 2 or 3-player teams.  The Solo mode is played against a virtual opponent called Amon.
+The module Gods of Egypt gives you the opportunity to play your God on the board.
+1 - COMPONENTS
+Common components:
+• 1 Kemet board
+• 96 Power tiles in 6 colors 
+(16 Ruby,  16 Sapphire,  16 Diamond,  16 Onyx,  16 Amethyst,  
+1- Amber)
+• 13 Creature miniatures
+• 6 Mercenary miniatures
+• 38 Divine Intervention cards
+• 3 Special Battle cards
+• 1 Score board (Score track and Turn order track)
+• 80 Fame point tokens (20 round,  60 square)
+• 20 Veteran tokens (scarab icon)
+• 2 Storm tiles
+• 5 silver Action tokens
+Components for each player (in 6 colors):
+• 12 Unit miniatures
+• 5 Action tokens in their color and 1 gold Action token
+• 1 Player board
+• 1 Statue token
+• 1 Prayer marker
+• 1 Order marker
+• 8 Battle cards
+• 3 Pyramids in 3 parts each
+• 5 Pyramid tops in 5 colors 
+(Ruby,  Sapphire,  Diamond,  Onyx,  Amethyst)
+• 5 Acquire tokens in 5 colors
+• 1 Divine Intervention card “Assemble”  (Team Mode)
+• 1 Player aid for Divine Intervention cards and Power tiles
+2 players 4 players 5 players 6 players3 players
+Note: In each of these player-dependent configurations,  
+the gray portions of the game board and those covered by 
+Storm tiles are not used in the game.
+Districts:
+The 3 zones inside of each City.
+The Sanctuary:
+The zone containing 
+this building.
+The Kemet board consists of the following zone types:
+Temples:
+Zones containing 1 of the 3 buildings shown below:.
+Note: Component illustrations are on pages 3-5.
+Use the configuration corresponding to the number of players:
+Temple of the Delta Temple Temple
+OVERVIEW
+1.1 The Kemet board
+
+
+=== PAGE 3 ===
+3
+1
+2
+2
++ + 22
+2
+Level 1 Level 2 Level 3 Level 4
+Note: A Pyramid in your supply is considered to be Level 0.
+Card effect 
+(see Player aid)
+Level: shows the tile’s Level,  color 
+(Ruby,  Sapphire,  Diamond,  Onyx,  or 
+Amethyst) 
+and cost (1 to 4 Prayer Points)
+Icon that shows when 
+the DI card may be 
+played
+Shield value
+Damage value
+Unblockable Damage value
+Strength value
+Player color
+Tile effect 
+(see Player aid)
+Cost in Prayer Points,  
+if any,  required when 
+playing the DI card
+ 
+(some DI cards are 
+frees,  other ask to spend 
+Prayer Points to trigger 
+their effect)
+Power tile type
+Every zone is outlined by either a white line,  the Nile,  or the edge 
+of the Kemet board,  except for Districts,  which are each outlined 
+by a Wall.
+The Nile is the blue boundary crossing the Kemet board.  
+Any zones separated by the Nile are said bordering the Nile and 
+are not adjacent to each other.
+Any zones covered by a Storm tile are not considered to be in play 
+and cannot be crossed.
+Some zones may contain a Harbor or an Obelisk,  which affect 
+movement.
+Deserts:
+Any zones that do not contain a City,  nor a building 
+(The Sanctuary,  or a Temple).
+Ports:
+Trading port 
+(blue)
+Military port 
+(red)
+Obelisk zone
+Obelisks:
+Acquire tokens
+1.2 Player boards
+Move
+Recruit
+Pray
+Prayer track
+Build
+Divine 
+Power
+Floor 1
+Floor 2
+Floor 3
+The 3 zones in the top center of the Kemet 
+board are called the Delta : the Temple zone in 
+the Delta,  the Desert zone in the Delta,  and the 
+Sanctuary.
+1.3 Power tiles
+1.4 Divine Intervention cards (DI)
+1.5 Battle cards
+1.6 Pyramid Levels
+Note: When you build a Pyramid of a new color in your City,  
+place an Acquire token of the corresponding color in the empty 
+Acquire space.  (see section 3.4.2,  p.6).
+Ruby
+Sapphire
+Diamond
+Onyx
+Emerald
+Amethyst
+Amber
+Acquire 
+space
+
+
+=== PAGE 4 ===
+4
+Power tile colors and number based on player count:
+• 2 players → 2 colors,  26 Power tiles*,
+• 3 players → 3 colors,  48 Power tiles,
+• 4 players → 3 colors,  48 Power tiles,
+• 5 players → 4 colors,  64 Power tiles,
+• 6 players → 5 colors,  80 Power tiles.
+* In 2-player games,  in each Power tile color remove the 
+following:
+ » the Power tiles “Act Of God”,
+ » 1 copy of each Power tile with a duplicate,  so there is only 1 of 
+each Power tile.
+Return all unused Power tiles to the box.
+Note : If you own the Game Up: Obelisks,  you may place 
+the Obelisk miniatures on every zone containing an Obelisk.  
+These are only cosmetic but they help you identify where 
+you may teleport your Troops.
+Statue 
+token
+Divine FP
+1
+2
+7
+5
+8
+9
+10 20
+14
+11
+15
+16
+21
+Order 
+marker
+Acquire token not placed, 
+the player has placed only 
+2 Pyramids
+13
+12
+12
+24
+1
+2 - SETUP
+1 . Place the Kemet board in the center of the play area and use 
+the configuration that corresponds to the player count,  some 
+require to place Storm tiles.
+2 . Place the Score board on top of the Kemet board.
+3 . Randomly select the colors of the Power tiles to use,  based on 
+the player count (see the table below).
+4 . Place all of the Power tiles in the selected colors face up next 
+to the Kemet board sorted by color in ascending order by 
+Level.
+5 . Place the Special Battle cards at the top of the Kemet board.
+6 . Place each Creature miniature on its corresponding Power 
+tile.
+7 . Place 1 Temple FP token (beige and blue,  round) on every 
+Temple used in the game based on the player count.  Return 
+the remaining ones to the box.
+8 . Place the remaining FP tokens,  the Silver Action tokens,  and 
+the Veteran tokens in the Bank.
+9 . Shuffle and place face down the Divine Intervention cards 
+next to the board to create the DI deck.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+GAME UP: Renewal - During the Common Setup step (2.1),  set 
+aside the Level 3 Power tiles “Domination”  from each of the 
+selected Pyramid colors for that game.  For each Pyramid color,  
+take the Power tile “Domination”  you previously set aside and 
+shuffle if with the Renewal Power tiles from the corresponding 
+color,  and draw 1 of these tiles at random you place in the 
+empty space dedicated to the Power tile “Domination” .
+2.1 Common Setup
+3
+4
+Setup example for a 4-player game
+
+=== PAGE 5 ===
+5
+1.  Start of game turn order
+One player takes the Order marker of each player and randomly 
+places them on the Turn Order track from left to right.
+The player whose Order marker is on the left will be the 1st player.
+2.  Troop placement
+Each player chooses 2 Districts in their City and places 5 Units in 
+both of them,  and then places their remaining 2 Units in their Supply.
+3.  Pyramid Setup
+In turn order,  each player resolves the following steps:
+3.1. They place a total of 3 Levels of Pyramids from their supply 
+into Districts in their City.  No more than 2 Levels can be 
+added to a single District at this time (either 1/1/1,  or 2/1/0).  
+They choose the color of their Pyramids by placing the 
+corresponding pyramid tops with their tip in the hole.
+3.2. They place an Acquire token in each color corresponding to 
+these Pyramids on an empty Acquire space on their Player 
+board.  Any Level 0 Pyramid stays in their Supply,  it is not 
+considered to be in play and has no color.
+4.  Acquiring a Level 1 Power Tile
+In reverse turn order,  each player chooses a Level 1 Power tile 
+corresponding to the color of 1 of their Pyramids and places it in 
+front of them.
+21
+22
+23
+24
+Note: FP won by a player are placed on the Score board in 
+the row of their God at the end of their turn.
+Any lost Pyramid FP is taken by the opponent who takes  
+control of the District containing the corresponding Pyramid.
+Any lost Temple FP is either taken by the opponent who 
+takes control of the zone containing the corresponding  
+Temple,  or placed back in that zone if nobody controls it.
++ + 22
+  +2+2
+Diversion 
+card
+18
+Prayer 
+marker
+Divine FP Battle FP Pyramid FP Veteran 
+token
+Silver 
+Action 
+token
+1
+14
+19
+22
+17
+23
+Temple FP
+8
+12
+22
+2 - SETUP
+1 . Each player chooses a color and a City from the Kemet board. 
+They place their Statue token in front of that City.  That City and 
+its Districts will be the one for their faction for the whole game.
+2 . Each player takes the following components in their color:
+• 1 Player board depicting their God and their pyramid,
+• The Acquire tokens corresponding to the colors of Power tiles 
+selected (section 2.1),
+• 1 Order marker,
+• 1 Prayer marker they place on the ‘7’  space of the Prayer track 
+on their Player board,
+• 5 Action tokens in their color and 1 gold Action token,
+• 12 Unit miniatures (each miniature constitutes 1 Unit),
+• 8 Battle cards,
+• 1 Divine Intervention “Diversion”  card.
+3 . Each player draws 2 DI cards.
+4 . Each player takes in 3 copies (2 copies in a 2-player game) the 
+parts from the first 3 Pyramid Levels and the tops corresponding 
+to the Power tile colors in game.
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+2.2 Individual Setup
+2.3 Before starting to play
+6
+23
+
+
+=== PAGE 6 ===
+6
+Note: A glossary can be found on p.11 with all of the keywords 
+and icons used in Kemet: Blood and Sand. 
+A game of Kemet: Blood and Sand is played over a series of Rounds.  
+Each Round consists of one Day Phase,  followed by one Night 
+Phase.
+Day Phase (player actions)
+In turn order,  each player becomes the active player and plays 
+1 Action token of their color and resolves its effect.  Continue turn 
+after turn until each player has placed all 5 of the Action tokens of 
+their color,  at which point the Day Phase is over.
+Night Phase (resolution)
+The Night Phase is divided into 9 steps which are resolved in order 
+and completely before moving to the next one.
+During these steps,  Night Phase Powers activate,  Divine 
+Intervention (DI) cards are allocated,  and Fame Points (FP) and 
+Prayer Points (PP) are awarded.
+Permanent FP and Temporary FP
+Throughout the game,  players gain FP:
+• Permanent FP are square tokens and cannot be lost.  They 
+are gained in Battles,  when acquiring specific Power tiles,  or 
+during the Night Phase by controlling at least 2 Temples or The 
+Sanctuary.
+• Temporary FP are round tokens and may be lost.  A Temporary FP is 
+gained by a player when they take control of a Temple (beige and blue), 
+or a Level 4 Pyramid (beige),  that FP is taken from the Kemet board,  the 
+Bank,  or from the opponent who was owning that FP .
+Effects
+The game is a series of effects played along the Rounds: your 
+actions generate effects,  as well as played DI cards,  and Power tiles 
+you activate.
+An effect is the resolution of an action,  a Battle step,  a Night Phase 
+step,  a DI card,  a Power tile,  or an effect triggered by another effect.
+A triggered effect showing  ‘+ <number of PP>’  is not considered as 
+an effect on its own,  it is just a modifier: its value is added to the 
+triggering effect.
+An effect termed single effect is the sum of multiple effects in one 
+effect and counting as one resolution.
+An effect is mandatory unless the effect description clearly 
+indicates that this is a possibility.
+Order of Rules Precedence
+If two effects contradict each other,  the effect with the highest 
+priority (highest number) takes precedence:
+5) DI card > 4) Power tile > 3) Expansion rules 
+> 2) module rules > 1) base game rules.
+If a player has at least 9 FP (sum of their Temporary FP and 
+Permanent FP) at the start their turn,  before playing ANY 
+Action token,  and no other player has more FP than them,  they 
+immediately win the game.
+Temple FPDivine FP Battle FP
+Permanent FP Temporary FP
+Pyramid FP
+3 - GAMEPLAY
+Note: This means this player already had the required 
+amount of FP to win the game after having played their 
+previous action,  each opponent being able to play 1 
+action to respond (in most cases).
+3.1 Introduction
+3.2 Game End
+
+
+=== PAGE 7 ===
+7
+At the beginning of the Day Phase,  the 1st player is the active player.
+The active player resolves the following steps in order:
+1 . They place 1 Action token of their color on an empty Action 
+space of their Player board observing the Equilibrium rule 
+(described below) ,  and they immediately resolve the selected 
+action’s effect.  In addition to the Action token in their color,  
+they may also play 1 silver Action token and/or 1 gold Action 
+token (described below) if they have any.
+They may play DI cards with a DAY icon during their turn 
+before or after an action,  and not during a Battle.  A DI card 
+played that way is resolved,  then discarded.
+2 . The player places the FP they won during this turn on their 
+Score track.
+3 . The next player in turn order becomes the active player and 
+plays their turn starting from step 1.  If no player has any Action 
+tokens in their color to place,  resolve the Night Phase.
+Equilibrium rule
+At the end of Day Phase,  each player must have at least 1 Action 
+token (no matter their color) on each of the 3 floors of the pyramid 
+on their Player board (see Player boards,  p.3).
+Playing Silver and Gold Action tokens
+Play these Action tokens at the same time you play an Action 
+token in your color to receive 1 or 2 bonus actions.  You choose 
+in which order to resolve your actions,  but each action must be 
+completely resolved before moving onto the next one.  An action 
+may be chosen even if it cannot be resolved at the time you place 
+an Action token on it.  If an action may eventually not be resolved,  
+it is lost.
+Silver Action token:
+Play this Action token on any empty Action spaces on your Player 
+board.
+Gold Action token:
+Play this Action token on the Divine Power space at the top of 
+the pyramid : resolve 1 Golden Action from a Power tile you own.
+3 - GAMEPLAY
+3.3 Day Phase
+
+
+=== PAGE 8 ===
+8
+All of the actions available on the Player boards are covered in the 
+following section.
+Add 1 or more Levels to 1 of your Pyramids: spend as many PP as 
+the value of each consecutive Level you want to add.
+If you add the Level 1 of the Pyramid in your Supply,  choose a color 
+you do not already own,  place it in your District without a Pyramid 
+and place the Acquire token of that color in the empty Acquire 
+space on your Player board.
+Adding more than one Level asks you to sum up the costs,  it is a 
+single effect.
+5
+3
+(2     + 3    )
+=
+= =
+Level 1
+Level 3Level 2
+Level 3 Level 2 + Level 3
+Pyramid effects
+The player controlling a District containing a Pyramid benefits form 
+the following effects:
+• they may acquire Power tiles that match its color and are of the 
+same or lower Level,
+• if this is a Level 4 Pyramid,  they take the Pyramid FP corresponding 
+to this Pyramid,
+• during their Move actions,  they may spend 2 PP to teleport their 
+Troop from that District to any zone containing an Obelisk.
+Spend X PP to add X Units: take these Units from your Supply 
+and place them in 1,  2, or 3 Districts in your City,  even if they are 
+controlled by opponents.
+If you add Unis into one of your Districts controlled by an 
+opponent,  it triggers a Battle in which you are the attacker at the 
+end of your Recruit action.
+If you add Units into multiple Districts controlled by opponents,  
+you choose in which order to resolve these Battles.
+Note: When an opponent controls one of your Districts they 
+benefit from all these effects,  not you.
+To acquire an available Power tile,  you must fulfill each of the 
+5 following conditions:
+• you do not already own one with the same artwork (no matter 
+its color),
+• you control a Pyramid in that color and of at least the same 
+Level than the targeted tile,
+• you have an empty Acquire space,  in that color if possible,  else 
+in another color or without any Acquire token,
+• you are able to spend as many PP as its Level (some effects may 
+modify that cost).
+Place your Action token on the selected Acquire space,  spend the 
+PP and place the Power tile in front of you so everyone can see 
+it.  You own that Power tile for the remainder of the game,  and it 
+cannot be lost.
++4+4
++4+4
++1+1
++1+1
+orif=
+ 3
+Level 3 Level 4
+Power tile effects
+Power tile effects become active once the Acquire action ends,  and 
+they are active for the remainder of the game,  even if you do not 
+control a Pyramid of their color anymore.  However,  some of them 
+will only trigger during a specific Phase,  denoted on each Power 
+tile (e.g.  Battle Powers,  Night Phase Powers).
+If a player owns multiple Power tiles whose effects trigger at the 
+same time,  they choose in which order they resolve those effects.
+Companions: Creatures & Servants
+Creatures and Servants are Companions.  When acquiring a Power 
+tile with a Creature or a Servant,  you may place that Companion 
+in one of your Districts containing one of your Troops.  Else,  the 
+Companion stays in your Supply,  on its tile.
+Afterward:
+• Before playing an Action token,  you may:
+ » exchange Companions of the same type from your Supply and/
+or those in your Districts between them in any way you like,
+ » place Companions from your Supply in Troops that are in 
+your Districts.
+• When you add Units in one of your Districts,  you may place a 
+Companion of each type from your Supply with these Units.
+A Companion is not a Unit but it must be tied to a Troop:
+• a Creature does not count against the Troop limit,  but against 
+the Creature limit which is 1 Creature per Troop.
+• a Servant does not count against the Troop limit,  but against 
+the Servant limit which is 1 Servant per Troop.
+• In Battle,  only the Companions’  bonuses are added to the tied 
+Troop (a Companion does not add +1 Strength as it is not a Unit).
+• If a Companion is no longer tied to a Troop,  it goes back to their 
+owner’s Supply.
+Examples:Examples:
+To add the Level 3 to a Level 2 Pyramid, spend 3 PP.
+To add the Level 3 to a Level 1 Pyramid, spend 5 PP 
+(2 PP to add the Level 2, and 3 PP more to add the Level 3).
+3.4 Actions
+3.4.1 Build
+3.4.2 Recruit
+3.4.3 Acquire
+
+
+=== PAGE 9 ===
+9
+Gain 2 Prayer Points (PP).
+Move 1 of your Troops.  This action is a combination of 1 Land 
+move and 1 Teleportation:
+• the number of Land moves is calculated at the beginning of 
+the action and may be modified by effects at that moment 
+only,
+• there may be only 1 Teleportation per Move action,  but its 
+cost may be reduced by effects.
+During your Move actions:
+• you may use Land move and Teleportation in any order and 
+you may alternate them,
+• you may move only a part of your Troop and leave some 
+Units in the zones your Troop passes through,
+• you may take Units and Companion you own that are in 
+zones your moving Troop passes through,
+• you may temporarily exceed the Troop limit,  the Creature 
+limit,  and the Servant limit but these Limits are assessed at 
+the end of the action in every zone,
+• you may only play DI cards with a Move icon,
+• any time your Troop enters a zone containing an opponent’s 
+Troop it ends its Move action,  and a Battle is immediately 
+triggered.
+Note: The Move action has to be resolved in a manner to 
+follow the Limits when the action ends,  which may reduce the 
+move options.  No Unit nor Companion may be removed from 
+the Kemet board to accommodate a move.
+Teleportation
+Spend 2 PP to teleport all or part of your Troop from a District 
+with a Pyramid of at least Level 1 to a zone containing an Obelisk.
+Note: When a player teleports a Troop,  it does not cost any 
+Land move.
+Land move
+Spend 1 Land move to move your Troop to 1 directly adjacent 
+zone or from its zone containing a Harbor,  to a zone containing a 
+Harbor,  by complying with all the following restrictions:
+• Your Troop may leave its zone through any kind of Harbor 
+(Military or Trading),  but it may then enter a zone only 
+through a Trading Harbor,  or through the Military Harbor of 
+the Desert zone surrounding your City.
+• During a single Move action,  your Troop may only enter 
+into 1 District of an opponent’s City,  and only if it starts this 
+action in a zone adjacent to the Wall to cross (that adjacency 
+requirement may be canceled by an effect).
+Note: Even if a Companion that adds Land moves is not 
+moved with a part of the Troop,  its bonus is still applied as 
+the number of Land moves is calculated at the beginning of 
+the Move action.
+Reminder: To control a Temple or an opponent’s Pyramid,  
+you must have a Troop in the same zone.
+If your Troop ever moves out of an opponent’s District 
+with a Level 4 Pyramid,  leaving it empty after controlling 
+it,  return the Pyramid FP to that player.  If your Troop 
+ever moves out of a Temple zone,  leaving it empty after 
+controlling it,  return the Temple FP into that zone.
+Example:Example:
+Claire wants to move her Troop from her City to the Temple on 
+the Nile east bank from a distance of 3 zones.
+B. Without a Teleportation, she may only do so using Land moves 
+if her Troop is able to make 3 Land moves.
+A way to do this is to have the Power tile “Priest of Mafdet” 
+and the Creature “Deep Desert Snake” tied to this Troop, which 
+would allow it to make 3 Land moves.
+Gaining temporary FP when controlling
+At the end of a Move action,  if you still own a Troop in a zone you 
+did not control at the beginning of that action,  you take control of 
+it.  If that zone contains a Temple or a Level 4 Pyramid,  you take the 
+corresponding temporary FP wherever it is.  You will add this FP on 
+the Score track at the end of your turn.
+She has two solutions:
+A. She may teleport her Troop by spending 2  PP to place her 
+Troop directly in the Temple zone.
+3.4.4 Pray
+3.4.5 Move
+=
+(2    )
+1
+ 1
+=+
+
+
+=== PAGE 10 ===
+10
+Each Battle card has a damage value (Damage and/or Unblockable 
+Damage),  and/or a Shield value (Shield and/or Impenetrable 
+Shield).  These values can be modified by DI cards,  Companions in 
+this Battle,  and Power tiles.
+Any damage produced by a Troop is inflicted to the opposing 
+Troop.  However,  a damage value with a ‘-’ before it is inflicted to 
+their own Troop (even if is has not enough Units).
+1 . Starting with the Attacker,  each player in the Battle who played 
+at least 1 Impenetrable Shield chooses as many Units from 
+their Troop that will not be removed by any Damage nor any 
+Unblockable Damage.
+2 . Starting with the Attacker,  each player in the Battle loses as many 
+Units from their Troop equal to the total Unblockable Damage 
+value their Troop suffers.
+3 . Starting with the Attacker,  each player in the Battle then loses as 
+many Units from their Troop equal to the total Damage value 
+their Troop suffers,  minus their own Shield value.
+If the winner loses their Troop,  they are still considered to be the 
+winner,  even if the loser still has a Troop in the zone where the 
+Battle occurred.
+1 . If the Attacker is the winner and they still have a Troop in the 
+zone where the Battle occurred,  they gain 1 Battle FP .
+2 . If the Defender is the winner,  they gain 1 Veteran token.
+3 . Each player involved who did not gain any FP during this 
+Rewards step gains 1 Veteran token (this means if the Defender 
+is the winner,  they gain an additional Veteran token).
+The loser chooses to retreat or to recall their Troop,  even if the 
+winner no longer has a Troop remaining in the zone where the 
+Battle occured.
+Retreat
+The winner chooses an empty adjacent zone where they move 
+the losing Troop.  This is not a Move action and Harbors cannot 
+be used.  They cannot choose a District that is not from the loser’s 
+City.  If no zone is available,  the loser cannot retreat and must 
+recall their Troop.
+Recall
+The loser returns all of their remaining Units in the zone to their 
+supply to gain X-1 PP ,  where X is equal to the number of Units 
+returned to their supply in this way.
+The winner chooses if they wish to recall their Troop or have it 
+stay in the zone where the Battle occurred.
+Recall
+The winner returns all of their remaining Units in the zone to their 
+supply to gain X-1 PP ,  where X is equal to the number of Units 
+returned to their supply in this way.
+The Attacker is the player whose move triggers the Battle,  the 
+other player is the Defender.
+The Battle only involves these two players,  therefore no other 
+player will be able to play DI cards during this Battle.
+A Power tile with a DAY icon has no effect during a Battle.
+When effects would resolve at the same time,  the Attacker’s effects 
+are resolved first,  followed by those of the Defender.
+Resolve all the following steps in order,  even if a player no longer 
+has a Troop in the Battle.
+The Attacker and the Defender each choose 2 Battle cards from 
+their hand:
+• the first Battle card is discarded face down and will never be 
+revealed,
+• the second Battle card will be played during the Battle and is 
+kept in hand (it is not revealed for now).
+The Attacker and the Defender may add DI cards with a BATTLE 
+icon: each player chooses if they hide these DI cards under their 
+in-hand Battle card,  or if they tell how many DI cards they play.  A 
+player may not play DI cards with a cost they cannot pay (if that 
+happens,  the card is discarded without effect).
+This is the only time they may play DI cards during the Battle.  A 
+player may tell their opponent they have played DI cards,  but 
+need not be truthful.  Players also do not need to admit to playing 
+DI cards,  even if asked.  Each player has the DI card “Diversion”: it 
+has no effect, but may be played alone or among other DI cards 
+to bluff the opponent.
+The Attacker and the Defender simultaneously reveal their Battle 
+card and DI cards,  and spend the required PP .
+Sum up the Strength of each player:
+• the number of Units they have in their Troop,  each Units 
+giving 1 Strength,
+• the Strength value of their played Battle card,
+• the Strength bonus provided by their Power tiles,
+• the Strength bonus provided by a Companion tied to their 
+Troop,
+• the Strength bonus provided by the DI cards they played,
+• a +1 Strength bonus if the Battle occurs in a District in their 
+City.
+The player who has the most Strength is the winner.  In case of a 
+tie,  the Defender is the winner.
+3.5 Battle
+3.5.7 Winner’s Aftermath
+3.5.6 Loser’s Aftermath
+3.5.1 War Council
+3.5.2 Confrontation
++ + 22
+1
+3.5.3 Resolution
+3.5.4 Casualties
+3.5.5 Rewards
+
+
+=== PAGE 11 ===
+11
+Resolve the following steps in order:
+1.  Offering
+The player that controls The Sanctuary may remove 2 Units from 
+that Troop to gain 1 Divine FP .
+2.  Delta Temple control
+The player that controls the Delta Temple may remove 1 Unit 
+from that Troop to gain 5 PP .
+3.  Temple control
+Each player that controls at least 2 Temples gains 1 Divine FP .
+4.  Adoration
+Each player gains the number of PP shown on the Temples they 
+control (other than the Delta Temple).
+This gain of PP is a single effect for each player.
+5.  Prayers
+Each player gains 2 PP and may discard X Veteran tokens to gain 
+X PP .
+This gain of PP is a single effect for each player.
+6.  Divine Intervention 
+In turn order,  each player draws 1 DI card and may discard Veteran 
+tokens to draw 1 DI card per 2 Veteran tokens discarded this way.
+7.  Conscription
+In turn order,  each player may discard X Veteran tokens to add 
+X Units in Districts in their own City and which are not controlled 
+by opposing Troops.
+8.  Awakening
+Each player discards any remaining Veteran tokens they have and 
+takes back their Action tokens,  placing them into their Supply.
+Any Units exceeding the Troop limit for the Troops on the Kemet 
+board are removed.
+9.  Destiny
+9.1. Move the Order markers below their current space on the 
+Turn Order track.  
+9.2. Starting with the player who has the fewest FP ,  then in 
+ascending FP order,  each player chooses their position on 
+the Turn Order track by placing their Order marker on an 
+empty space.
+In case of a tie,  the tied player whose Order marker was 
+leftmost on the Order track during the previous Round 
+chooses first and so on.
+9.3.  Start a new Round with its Day Phase.
+Each player discards the Battle card they played and resolved 
+face up.  The Battle cards discarded during the War Council step 
+are left face down and not revealed.  If a player has discarded all 
+their Battle cards,  they immediately take all of their Battle cards 
+back to their hand.
+DI cards played in the Battle are discarded face up near the DI deck.
+Any Unit exceeding the Troop limit is removed.
+If the Defender still owns a Troop in the attacked zone,  they keep 
+control of it.  If this is the Attacker,  they take control of that zone 
+(see p.6)..
+Example:Example:
+Jacques moves his Troop to the zone of a Temple controlled by 
+Guillaume’s Troop.
+• Jacques is the Attacker with a Troop of 5 Units and has the 
+following Powers:
+ » Charge! (+1 Strength when attacking),
+ » Blades of Neith (+1 Strength in Battle).
+He has 7 Strength (5+1+1).
+• Guillaume is the Defender with a Troop of 4 Units and a tied 
+Creature:
+ » Ancestral Elephant (+1 Strength to its tied Troop).
+He has 5 Strength (4+1).
+Both players secretly choose 2 Battle cards: the first Battle card 
+is discarded face down and the other is kept in hand to be played 
+in the Battle.
+• Jacques keeps his Battle card: 3 Strength, and 2 Damage. He 
+tells he plays 1 DI card he chooses to place face down on the 
+table.
+• Guillaume keeps his Battle card: 2 Strength, and 2 Shield. He 
+adds 2 DI cards which he chooses to hide under his Battle card: 
+Bronze Wall, and War Fury.
+Both players simultaneously show their cards and declare their 
+total Strength value:
+• Jacques’ Strength: 10 (7+3 from his Battle card), his DI card 
+was a Diversion card with no effect so he takes it back,
+• Guillaume’s Strength: 9 (5+2 from his Battle card +2 from his 
+DI card, for which he has to spend 1 PP).
+Jacques is the winner.
+Casualties:
+• Jacques inflicts 2  Damage to Guillaume’s Troop, which has 
+4 Shield (his Combat card + Ancestral Elephant + Bronze Wall 
+DI card).
+• Guillaume does not lose any Units nor does he inflict any 
+Damage.
+• As Jacques is the winner and still has a Troop in the zone being 
+the attacker, he gains 1 Battle FP.
+• Guillaume gains 1 Veteran token as he is the loser.
+• Guillaume chooses to recall his Troop: he recalls 4 Units, gains 
+3 PP and puts his Creature back in his supply.
+• Jacques could also recall his Troop, but he prefers to keep it in 
+the zone where the Battle occurred to control the Temple and 
+takes the corresponding Temple FP (and would place it on his 
+Score track at the end of his trun).
+• Played cards are put in their respective discard piles.
+3.5.8 Battle Ending
++ + 22
+1
+ 3.6 Night Phase
+
+
+=== PAGE 12 ===
+12
+4 - TEAM MODE
+Members of a same team are called Teammates.
+The Troops of Teammates never battle against each other.  Only 
+Troops belonging to another team are considered to be opposing 
+Troops.
+Teammates are allowed to discuss about strategy and plan,  both 
+openly and in secret.  Teammates may secretly show each other DI 
+cards and Battle cards.
+The FP of each team are summed up on the Score board.
+The PP and Veteran tokens gained may be distributed among 
+Teammates how the team sees fit,  regardless as to which Teammate 
+gained them and when.
+Each player remains the only owner of their City; as such,  
+Teammates of a player may not use that City as if it was theirs.
+Mixed Troops
+The Teammates may mix their Units to create Mixed Troops.  A 
+Troop is mixed if it contains Units belonging at least to 2 different 
+Teammates.
+Mixed Troops follow specific rules for Recruit action,  Move action,  
+and Battle (see sections about corresponding actions).
+A Mixed Troop may contain 5 Units at most,  this is the Mixed 
+Troop Limit.  Unlike normal Troops,  no effect (Power tiles,  DI 
+cards) may make it exceed 5 Units.
+Active Teammate and Power tiles
+The Power tiles applied during a Phase or a Battle are only those 
+acquired by the active Teammate.
+• During both the Day Phase and Battle Phase,  the active 
+Teammate is the player currently playing their turn.
+• While defending,  the active Teammate is the one whose Troop 
+is attacked,  in case of a Mixed Troop,  the active Teammate may 
+be chosen by the defending team who has at least 1 Unit in the 
+Mixed Troop being attacked.
+Exception: The Companion tile tied to a Troop is always applied,  
+whoever owns that tile.
+The Team Mode allows to play:
+• a 4-player game,  2 vs 2,
+• a 6-player game,  2 vs 2 vs 2,
+• a 6-player game,  3 vs 3.
+The Teams mode follows all of the rules of the Classic Mode; the 
+only exceptions are noted in the following sections.  The rules do 
+not change based on the player/team count.
+Each player gets 1 DI card ”Assemble!” .
+Example:Example:
+3 teams of 2 players confront:
+• team 1: yellow and blue Teammates
+• team 2: red and green Teammates
+• team 3: violet and black Teammates
+The first Order markers chosen by each team are yellow, green, 
+and black. They are randomly placed on the Order track in the 
+following order: black, green, then yellow. The 3  remaining 
+Order markers (blue, red, and violet) are placed following the 
+first ones 3 on the Order track in the following order: violet, 
+red, then blue.
+Turn order will be: black, green, yellow, violet, red, then blue.
+Looking at the teams, the order will be: team 3, team 2, team 1, 
+team 3, team 2, then team 1.
+Setup is the same as Classic Mode,  except step 2.3 where points 1 
+and 2 are modified this way:
+1.  Start of game Turn order 
+Players create random teams or choose their Teammates.
+Each team chooses 1 of their Order markers.  The chosen markers 
+are randomly placed from left to right on the Order track.  Then,  
+take the remaining Order markers and place them following the 
+first markers keeping the same team order.
+This way,  the order of the teams will remain the same from one 
+Teammate to another and there will never be two Teammates 
+from the same team who would play consecutively.
+Note: Teammates may consult anytime during setup.
+2.  Troop placement
+Each player chooses 2 Districts from their City and distributes 
+4 of their Units and 1 Unit from their Teammate in each,  they 
+then place their 2 remaining Units in their Supply.  If the team is 
+made of 3 Teammates,  each player distributes 4 of their Units and 
+1 Unit from one of their Teammate in a District,  4 of their Units 
+and 1 Unit from one of their other Teammate in another District.
+As soon as a team has at least 12 FP (temporary FP and permanent 
+FP of the team summed up) at the start of the turn of one of the 
+Teammates,  before playing an Action token,  and no other team 
+owns more FP than them,  the game immediately ends and this 
+team is the winner of the game.
+Team Mode concepts
+Game End
+Setup
+
+
+=== PAGE 13 ===
+13
+4 - TEAM MODE
+Spend X PP to add X Units: take these Units from your Supply 
+and place them in 1,  2, or 3 Districts in your City,  even if they are 
+controlled by opponents.  You may complete a Troop containing 
+Units from a Teammate,  still observing the Troop Limit of 5 Units 
+per Troop.
+If you add Unis into one of your Districts controlled by an 
+opponent,  it triggers a Battle in which you are the attacker at the 
+end of your Recruit action.
+If you add Units into multiple Districts controlled by opponents,  
+you choose in which order to resolve these Battles.
+Note: You can only add Units to you own City.  Even if you 
+control an opposing team’s District or a Teammate’s District,  
+you cannot add Units to it.
+Only the following actions are different from Classic Mode.
+This action functions identically to Acquire in Classic Mode.
+One clarification: A player that has at least 1 Unit in the Troop 
+that occupies a District containing an opposing Pyramid or one 
+belonging to a Teammate  is considered to be controlling that 
+Pyramid.
+This action functions identically to Move in Classic Mode,  with the 
+following exceptions:
+• During their Move action,  a Teammate may pass through a zone 
+containing Units belonging to a Teammate even if this causes 
+them to temporarily exceed Troop Limit,  Creature Limit and 
+Servant Limit per zone; these Limits are assessed at the end of 
+the action.
+• Walls of Teammates’  Cities are ignored when moving 
+Teammates’  Troops.
+• A Mixed Troop may be moved by any Teammate that has at 
+least 1 Unit in it and as long as that Unit stays in the Troop from 
+the beginning to the end of the action.
+• A Teammate may take and/or leave Teammates’  Units or their 
+own Units in zones they pass through during that action.
+• During the Day Phase,  a Mixed Troop only benefits from Power 
+tiles owned by the active player (exception: Companion Power 
+tiles).
+• If a Mixed Troop occupies a District containing a Pyramid,  this 
+one is considered to be controlled by each of the Teammates 
+that have at least 1 Unit in their Mixed Troop.  In any case,  a 
+Level 4 Pyramid gives only 1 FP to the team that controls it.
+A Teammate may never attack Troops belonging to their 
+Teammates.
+• The Attacker is the active player whose move triggers the Battle.
+• The Defender is the active Teammate whose Troop is attacked,  
+or in case of a Mixed Troop,  the active Teammate can be chosen 
+by the defending team for any Teammate who has at least 
+1 Unit in the Mixed Troop being attacked.
+Only active players can play DI cards during the Battle,  and only 
+the Power tiles these players own will affect the Battle (Exception: 
+Companion Power tiles are always active when the Companion is 
+in Battle).
+A Power tile with a DAY icon has no effect during a Battle.
+When effects would resolve at the same time,  the Attacker’s effects 
+are resolved first,  followed by those of the Defender.  Resolve the 
+Classic Mode steps in order,  even if a player no longer has a Troop 
+in the Battle.
+Clarifications
+Teammates choose which Units are removed from their Troop 
+involved in the Battle.
+Veteran tokens may be freely distributed among Teammates 
+when they are received.  This way,  a Teammate may get a Veteran 
+token even if they did not participated to the Battle.
+The Night Phase is the same as Classic Mode,  except step 9 
+that becomes:
+9.  Destiny
+9.1. Move the Order markers below their current space on the 
+Turn Order track.  
+9.2. The team that has the least FP chooses 1 of their Order 
+markers and place it in 1 st, 2nd or 3rd position on the Order 
+track (3-team games) / in 1st or 2nd position on the Order track 
+(2-team games).  In order of ascending FP ,  each other team 
+does the same by choosing 1 of the empty spaces on the 
+Order track.
+In case of a tie,  the tied team whose player was leftmost on 
+the Order track during the previous Round chooses first,  and 
+so on.
+9.3. Following the same order,  each team places their second 
+Order marker.  In the case of a game with 3 player teams,  
+this will be done one last time,  until all Order markers have 
+been placed.
+9.4. Start a new Round with its Day Phase.
+Example:Example:
+A red/blue Mixed Troop contains the Mummy. The Mummy 
+belong to the Blue player. The Move and Battle bonuses will 
+apply even if the Red player moves that Troop. However, the 
+DI card gained during Night Phase only applies to the Blue 
+player.
+Recruit
+Acquire
+Move
+Day Phase
+ Battle
+Night Phase
+
+
+=== PAGE 14 ===
+14
+5 - SOLO MODE
+The goal of the Solo Mode is to fight against Amon,  your virtual 
+opponent,  to complete the objective you choose at the start of the 
+game in a number of Rounds.
+BEWARE! If,  at any moment,  the player has no more Units on the 
+Kemet board,  they immediately lose the game.
+The Solo Mode cannot be played with the Gods of Egypt module.
+Follow the Setup for 2 players with the following changes:
+Place the two pyramids that are chosen for this game,  one above 
+the other and to not move them during the game (see the Plunder 
+cards effect).  Shuffle the Power tiles from each Level with each 
+other to have them placed at random in their level line.
+Choose a color for Amon.
+Step 2.2 is modified as follows:
+Resolve Amon’s setup before the player’s,  following these steps:
+1 . Choose (or pick at random) 1 Objective card and place it near 
+the Amon board.
+2 . Place Amon’s Prayer marker on the number corresponding to 
+number of Rounds shown on the Objective card.
+3 . Place Amon’s Order marker near the Amon board.
+4 . Place 1 Action token below the ‘0’  of each column of the War 
+Table on the Amon board.
+5 . Create the Events deck: draw 2 Disaster cards without looking 
+at them and add as many Event cards as shown on the chosen 
+Objective card.  Shuffle all these cards and place them face 
+down on the dedicated space on the Amon board.
+1
+2
+3
+4
+5
+6
+8 . Amon takes the City in the north,  place 2 Level 4 Pyramids 
+corresponding to the 2 selected colors during step 2.1.
+9 . Place 5 Units in each of Amon’s District that contain a Pyramid.
+10. Resolve the effects of Plunder cards until Amon gets 1 Creature 
+for each of his Troops.  Place the first Creature on the Troop A 
+space on the Amon board,  and the second one on the Troop B 
+space.
+The Power tiles specified by the Plunder cards that are not 
+Creatures are not removed from the game during this step.
+9
+10
+Example:Example:
+For an Objective showing 8 Rounds,  the deck will contain 
+2 Disaster cards and 6 Event cards
+6 . Create the Actions deck: Pick the 9 Action cards,  shuffle them 
+and place them face down on the dedicated space on the 
+Amon board.
+7 . Create the Plunder deck: Pick the 8 Plunder cards,  shuffle them,  
+and place them face down near the Amon board.
+7
+8
+Additional components:
+• 1 Amon board (virtual player)
+• 5 Objective cards
+• 10 Event cards
+• 5 Disaster cards
+• 9 Action cards
+• 8 Plunder cards
+Solo Mode concepts
+Setup
+Plunders 
+deck
+1
+8 11
+Battles 
+deck
+8
+7
+6
+5
+4
+3
+2
+1
+1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+Amon 
+T roop A
+Disaster 
+cards
+Events 
+discard pile
+4
+10
+
+=== PAGE 15 ===
+15
+5 - SOLO MODE
+Note: Amon has 2 Troops,  A and B,  containing 5 Units,  each 
+tied to Creature A and B respectively.
+11. Shuffle Amon’s Battle cards and place them face down near 
+the Amon board.
+At step 2.3.3 the player plac es their 2 Pyramids in the southern 
+City in the Districts shown below (to have east and west clearly 
+differentiated).
+At step 2.3.4,  Amon does not acquire a Level 1 Power tile.
+11
+12
+During each Round,  Day Phase is replaced by the following 
+sequence,  shown on the Amon board:
+• Player Action tokens 1,  2,  and 3.
+• Draw 1 card from the Events deck.
+• Player Action tokens 4 and 5.
+• Draw 1 card from the Actions deck.
+As in the base game,  the player will be able to use gold or silver 
+Action tokens acquired during the game and will have to follow 
+the Equilibrium rule.
+Amon’s Troops may contain up to 6 Units at any time during the 
+game.
+The War Table lists Amon’s stats.
+Shown values are the lowest and highest results that may be 
+obtained and that apply to either Amon’s Troops,  separate from 
+bonuses given by a tied Creature or Servant.
+When a card modifies a stat beyond 5 or below 2,  that modification 
+is ignored.
+Amon’s Troop Limit
+The War Table
+Resolving an Event card
+Day Phase
+Each Round,  after playing their 3 rd Action token,  the player will 
+draw a card from the Events deck.
+• If this is an Event,  they apply its effects.
+Effects written in black are immediately resolved.  Effects written 
+in red are ongoing until the card is covered by another Event card.
+Example:Example:
+The card “Thirsty for revenge”  tells Amon gains +2 Strength and 
++2 Damage.  These Battle bonuses are ongoing until another 
+Event card covers it.  However,  
+the effect «The player discards 2 DI cards» 
+is applied only once when the card is revealed.
+• If this is a Disaster,  place that card next to the Amon board,  
+its effect cumulates with any Event already in play and any 
+other Disasters already drawn.  By default,  its effects apply 
+until the end of game.  A Disaster card does not replace an 
+Event card already in play,  this card stays active during this 
+Round.
+Hint: Remember to update the columns in the War table,  
+when a card enter into play and/or a card is discarded.
+9
+12 12
+8
+7
+6
+5
+4
+3
+2
+1
+1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+Objective card for 
+the game
+War 
+Table
+Actions 
+discard pile
+OBJECTIVE
+Number of Rounds: 7
+Number of Event cards: 5
+Victory conditions:
+• You own 5 Permanents FP
+• In Night Phase,  you control 2 Temples.
+Special rules:
+• None.
+OB0 1
+Amon 
+T roop A
+Amon 
+T roop B
+2
+3
+5
+6 7
+10 10
+Round 
+track
+THIRST FOR REVENGETHIRST FOR REVENGE
+Amon Troops gain:
++2 
++2 
+Choose and discard 2 DI cards from your 
+hand.
+EV0 1
+
+=== PAGE 16 ===
+16
+Each Round,  after playing their son 5th Action,  the player will draw 
+a card from the Actions deck,  resolve it,  and then discard it.
+Clarifications about Action cards effects:
+• Amon’s Move Action:
+Moving one of Amon’s Troop refers to a Land move towards its 
+target,  always taking the shortest path.  This move will never use 
+Ports,  except the Military Port to leave the Delta Desert zone.
+The target determines the direction of the movement 
+undertaken by Amon’s troops (highest pyramid,  troop with 
+fewest units...),  which is indicated by some Action cards.
+Amon’s Troops do not take into account Walls of the Player’s 
+City.
+Amon’s Troops benefit from movement bonuses given by the 
+tied Creature,  effects from active Event cards,  and active Disaster 
+cards.
+If the target of Amon’s Troop needs it to move into the Delta,  it 
+will be able to teleport through a Pyramid,  without paying the 
+cost.
+If the target of Amon’s Troop needs it to spend a cost to enter in 
+its zone,  Amon enters that zone and ignores that cost.
+If Amon’s Troop enters a zone occupied by its target or another 
+opposing Troop,  immediately resolve that Battle (see below).
+To select Amon’s Troop target,  check if the 1st condition on the 
+Action card is fulfilled.  If this is not the case,  check the next 
+condition.
+If Amon’s Troop crosses a zone occupied 
+by Amon’s other Troop and it has enough 
+Movement points to move to the next zone 
+towards its target,  it continues its movement,  
+else it stops in the last empty crossed zone.
+If any Objective card contradicts the regular rules,  the Objective 
+card takes precedence.
+Unless otherwise stated,  the victory condition can be completed 
+before the number of Rounds has been reached (Objective 4 is an 
+exception).
+All victory conditions must be fulfilled simultaneously for victory 
+to be achieved.  Any condition based on having a certain amount of 
+a specific condition should be viewed as a minimum (e.g.  “Control 
+2 Temples”  would still be satisfied if you controlled 3 Temples).
+If you do not fulfill the victory condition by the end of the final 
+Round,  you lose the game.
+When an Event card or an Action card asks you to apply the effect 
+of a Plunder card,  draw the cards from the top of the Plunders deck 
+and place it below the Tile boards.
+For the color on top of the card,  look at the Pyramid Level shown 
+below the top pyramid,  then remove from the game the Power 
+tile corresponding to the crossed one.  If that Power tile is not on 
+the Tile board,  remove the tile from the lower Level in the same 
+column.  Continue doing so if necessary until a Power tile has been 
+removed from the game.
+Proceed the same way for the pyramid color on the lower part.
+If no tile may be removed,  draw a new Plunder card and resolve 
+the part you weren’t able to resolve.
+When the Plunders deck is empty,  shuffle the discard pile to create 
+a new one.
+Example:Example:
+Action card “Surge”  tells:
+Amon’s Troop A moves in the following priority order towards:
+• the Pyramid of highest Level,
+• the occupied Pyramid,
+• the western most Pyramid.
+First check if the player has a Pyramid of a higher Level.  If this 
+is the case,  Amon’s Troop A will move towards that Pyramid.  In 
+the case where the two Pyramids are of the same Level,  check the 
+next condition: “the occupied Pyramid” ,  and so on.
+Note: When a card points a cardinal direction (east/west),  
+north should be considered the top of the board,  the board 
+edge closest to the Delta zone..
+• Amon’s Recruit Action:
+When Amon adds Units,  he adds as many Units as possible to 
+his Troops from his Supply,  respecting his troop limit.  If he does 
+not have enough Units,  he spreads them as equally as possible 
+among both Troops,  with Troop A getting the extra Unit in the 
+case of a tie
+Example:Example:
+Objective – You control 2 Temples in 
+Night Phase but you have lost 1 FP after 
+an action of Amon.  You will have to gain 
+at least 1 additional FP and keep control 
+over the 2 Temples to win the game 
+during the next Rounds.
+Resolving an Action card
+ Applying the Plunder effect
+Objective cards clarifications
+Example:Example:
+This Plunder card asks to remove from 
+the game the 1 st Level 4 Power tile for 
+the left side pyramid.  If it is not possible,  
+the 1st Level 3 tile,  and so on.
+P08
+PLUNDERPLUNDER
+OBJECTIVE
+Number of Rounds: 7
+Number of Event cards: 5
+Victory conditions:
+• You own 5 Permanents FP
+• In Night Phase,  you control 2 Temples.
+Special rules:
+• None.
+OB0 1
+SURGESURGE
+Amon Troop A moves in this priority order,  
+towards:
+• your Pyramid with the highest value,
+• your Pyramid occupied by one of your 
+Troops,
+• your western most Pyramid.
+Amon Troop B moves in this priority order,  
+towards:
+• your Troop containing the least Units,
+• your Troop nearest from Amon Troop B,
+• the Temple that gives the most PP .
+AC 01
+
+=== PAGE 17 ===
+17
+Then,  he moves the Sequence token on the “Event card”  space on 
+the Amon board.  He draws the top card from the Events deck and 
+applies its effects.
+It is the event “Bloody skirmish”  (Both Amon’s 
+Troops gain +1 Strength,+1 Damage,+1 Land 
+move) Jacques updates the columns on the 
+Amon board.
+Jacques moves the Sequence token on the “Action 4”  space and 
+decides to place his Action token on the Move action on his Player 
+board.  He moves his Troop containing 5 Units and the Griffin 
+sphinx in the zone of the Temple where stands Amon’s Troop A.
+Jacques’  Troop has a Strength of 8 (5 Units +2 Strength from 
+the Griffin sphinx +1 Strength from Bestial Fury) and inflicts 
++1 Damage (thanks to Bestial Fury).
+Amon has a Strength of 7 (5 Units +1 Strength from Ancestral 
+Elephant +1 Strength with the event “Bloody skirmish”).  He also 
+gets +1 Shield (Ancestral Elephant) and +1 Damage (Bloody 
+skirmish).
+Jacques chooses his card 
+“4 Strength/1 Damage”  (and discards his 
+card “2 Strength/2 Damages/1 Shield”) and 
+adds 1 DI card giving him +1 Shield.
+He then picks Amon’s Battle cards and 
+shuffles them.  He reveals the Battle card 
+1 Strength/3 Damage and resolves the Battle.
+Jacques has a total of 12 Strength,  inflicts 1 Damage and has 
+1 Shield.  Amon has 8 Strength,  inflicts 4 Damage and has 1 Shield 
+After inflicting all Damage,  there is 1 Unit in 
+Jacques’  Troop,  and he is the winner of the Battle.
+He makes the Troop A retreat,  gains1 FP (he 
+takes it as he is playing Scenario 1) but recalls his 
+Troop,  an easy prey for Amon’s Troops.
+Jacques moves the Sequence token on the “Action 5”  space and 
+places his Action token on the Pray action on his Player board 
+to gain 2 PP .
+Finally,  moves the Sequence token on the “Action card”  on the 
+Amon board.
+Jacques draws the card from the top of the 
+Actions deck and resolves it.  It is the card 
+“Reinforcements 1”  : 1 Unit is added to each 
+Amon’s Troop (his Troop Limit is 6) and Jacques 
+loses 2 Units in the last Troop he has.  The next 
+Round will be difficult…
+Amon has no Night Phase (unless an Event card says otherwise).  
+The player resolves the Night Phase as normal.  No Turn order 
+is determined; instead,  move 1 space to the left Amon’s Prayer 
+marker on the Round track: if the Prayer marker leaves space 1,  
+you lose the game,  else start a new Round.
+Amon does not resolve step 3.5.1.
+During step 3.5.2,  the player reveals their played Battle card and 
+DI cards.  Then,  they pick all Amon’s Battle cards (even those 
+previously played),  shuffle them face down and reveal 1 at random.
+Resolve Step 3.5.3 normally.
+Step 3.5.6 which is modified as follows:
+Step 3.5.6: If Amon has 3 Units or less in his Troop,  he recall 
+these remaining Units and immediately places a Troop made of 
+5 Units with the Creature obtained during Setup in one of his 
+empty Districts that contains a Pyramid.  If the 2 Districts are 
+occupied with the player’s Troops that Amon’s Troop is placed 
+in the District containing the weakest player’s Troop; if these 
+Troops contain the same number of Units,  choose the District 
+at random and immediately resolve that Battle.  If Amon has at 
+least 4 Units,  he retreats,  the player chooses in which zone.
+All remaining Battle steps function normally.
+Strength of Amon’s Troop: sum up of the Strength value shown on 
+the War Table,  the number of Units in that Troop and the Strength 
+given by any tied Creature.
+Shield of Amon’s Troop: sum up of the Shield value shown on the 
+War Table and the Shield given by any tied Creature.
+Damage of Amon’s Troop: sum up of the Strength value shown on 
+the War Table and the Damage given by any tied Creature.
+Creature effects: Amon ignores effects that need a decision and 
+those that draw DI cards.
+Veteran tokens: Amon gains no Veteran tokens.
+Battle
+Night Phase
+Solo mode example:Solo mode example:
+Jacques starts the 2nd Round with 9 PP .
+The available pyramid colors are Onyx and Sapphire.
+Amon got the Ancestral Elephant (Troop A) and Amout the Soul 
+Devourer (Troop B) during Setup.  Amon’s Troop A is in the zone 
+of the westmost Temple,  and Troop B in the Desert zone next to 
+that Temple.
+Jacques moves the Sequence token on the “Action 1”  space of the 
+track on the Amon board to resolve his 1 st action.  He decides to 
+spend 4 PP to Build a Level and upgrade his Onyx Pyramid to 
+Level 4 by placing his Action token on the Build space on his 
+Player board.
+He moves the Sequence token on the “Action 2”  space and 
+acquires the Power tile “Bestial Fury”  by spending 4 PP .
+He resolves his 3rd action which will be Pray.  He gains 2 PP .
+BLOODY SKIRMISHBLOODY SKIRMISH
+Amon Troops gain:
++1 
++1 
++1
+EV08
+OBJECTIVE
+Number of Rounds: 7
+Number of Event cards: 5
+Victory conditions:
+• You own 5 Permanents FP
+• In Night Phase,  you control 2 Temples.
+Special rules:
+• None.
+OB0 1
+AC05
+Add up to 2 Units 
+in each Amon Troop (up to his Troop Limit).
+Destroy 1 Unit in each of your Troops.
+LIGHT REINFORCEMENTSLIGHT REINFORCEMENTS
+
+
+=== PAGE 18 ===
+18
+6 - MODULE: GODS OF EGYPT
+The Gods of Egypt module introduces powerful asymmetry to the 
+game.  Each player chooses a God to embody,  receiving a unique 
+miniature and a tile detailing their special abilities.  Each God 
+offers distinct advantages (see next page) once their God tile has 
+been acquired.
+Follow the rules of your chosen game mode,  with the specific 
+exceptions outlined in the following sections.
+This module works with both Classic Mode and Team Mode.
+Setup follows your chosen game mode you chose,  replace point 1 
+of step 2.2 with the following:
+1 . Each player chooses a God and a City on the Kemet board.  They 
+place the Statue token in the color of their God in a City from 
+the Kemet board.  That City will be the one for their faction 
+throughout the game.  They take the corresponding God tile 
+they place face down in front of them,  they place the miniature 
+on it,  and they take a Life Point marker.
+Place the Rise marker on the Score track below the 4 th column 
+(7th column in Team Mode)..
+• Life Points: Each God has a number of Life Points (LP) shown 
+on its God tile,  depicted by 
+ .
+• Troop status: A God acts as a troop with its Strength is listed on 
+its god tile,
+• Unit limitations: A God is not considered a Unit,  nor a Companion.
+• Alone on the Battlefield: Gods cannot have Unit and/or 
+Companions tied to them.
+Life Points of Gods
+• Losing LP: Any effect that would remove 1 Unit from a Troop 
+that targets a God instead removes 1 LP from it (this includes 
+the Temple of the Delta,  Battle losses,  DI cards,  etc.).
+• Tracking LP loss: For each LP lost,  move your LP marker 1 space 
+to the left on your God tile.
+• Consequences of LP loss: Each LP lost by a God counts as 1 lost 
+Unit for the purpose of triggered effects.
+• Defeat: If a God reaches 0 LP it is placed back on its God tile and 
+will be available to recruit.
+Note: The Divinities from the “Book of the Dead”   
+expansion are not Gods.
+Add the following option to the Acquire action
+To acquire your God tile,  the 4 following conditions must be 
+fulfilled:
+• at least 1 player has earned at least 4 FP during the game (or 
+7 FP in Team Mode),  this condition remains satisfied even if 
+players later lose FP
+• your City has at leasts 1 Level 4 Pyramid (regardless of who 
+controls it),
+• an Acquire space matching the color of at least 1 of the Level 4 
+Pyramids in your City is empty,
+• you have at least 4 PP .
+How to acquire
+• Place Action token: Place your Action token on the empty 
+Acquire space corresponding to 1 of the Level 4 Pyramids in 
+your City.
+• Pay the cost: Spend 4 PP .  This cost cannot be modified.
+• Activate your God:  Flip your God tile face up.  Immediately 
+place your God miniature in one of your Districts that does not 
+contain Units from you or your Teammates.
+• Place LP marker: Place its LP marker on the highest LP value 
+on its God tile.
+• Potential Battle:  If you place your God miniature in an 
+opponent-controlled District,  this triggers a Battle where you 
+are the attacker.  This Battle resolves at the end of your Recruit 
+action
+Add the following option to the Recruit action
+• Deploy your God:  You may place your God from your Supply 
+for free onto one of your Districts.  This District cannot Units 
+from you or your Teammates.  Place its LP marker on the highest 
+LP value on its God tile.
+• Potential Battle:  If you place your God miniature in an 
+opponent-controlled District,  this triggers a Battle where you 
+are the attacker.  This Battle resolves at the end of your Recruit 
+action.
+Battles follow the rules of your chosen game mode,  except the fact 
+that a God cannot be recalled:
+• During the Loser’s Aftermath step,  a God must retreat if possible.  
+Else,  the God returns to its owner’s Supply.  This is not considered 
+as a Recall.
+• During the Winner’s Aftermath step,  a God may only stay in the 
+Battle zone,  It cannot use Recall.
+Additional components:
+• 6 God tiles
+• 6 God miniatures
+• 6 Life Point markers (LP)
+• 1 Rise marker
+• 1 Special Battle card for Sobek
+Rise 
+token
+Acquire
+Recruit
+Module’s concepts
+Setup
+The Gods
+Day Phase
+Battle
+
+
+=== PAGE 19 ===
+19
+Actions
+There are 5 different actions : Build,  Recruit,  Acquire,  Pray,  Move.
+Power tiles
+Power tiles are divided into families corresponding to the different 
+Pyramid colors.  Each family is split into 4 Levels,  with 4 tiles from 
+each Level,  meaning 16 Power tiles within each family).
+Prayer Points (PP) and Prayer track
+The Prayer Point icon is an ankh 
+ ,  it is the central resource of the 
+game you spend to trigger different effects.
+For each PP you gain,  move your Prayer token 1 space to the right 
+on your Prayer track.
+For each PP you spend,  move your Prayer token 1 space to the left 
+on your Prayer track.
+You may never have more than 11 PP ,  or less than 0 PP .
+Controlling a zone
+A player controls a zone other than a District in their City as 
+long as they have a Troop in it.  A player controls a District of 
+their City as long as there is no opposing Troop in it.  Immediately 
+when a player has no more Troop in a Temple or an opponent’s 
+District with a Level 4 Pyramid,  they give back the corresponding 
+Temporary FP depending on the situation.
+Controlling an opposing Pyramid
+A player whose Troop occupies an opposing District with a 
+Pyramid controls that Pyramid.
+In Team Mode:
+• If a Mixed Troop occupies a District containing a Pyramid,  this 
+one is considered to be controlled by each of the Teammates 
+that have at least 1 Unit in their Mixed Troop.  In any case,  a 
+Level 4 Pyramid gives only 1 FP to the team that controls it.
+• A player that has at least 1 Unit in the Troop that occupies a 
+District containing an opposing Pyramid or one belonging 
+to a Teammate is considered to be controlling that Pyramid.
+Empty zone
+A zone is empty if no Troop is in it,  allowing that zone to receive a 
+Troop without triggering a Battle.
+Units and Troops
+All the Units belonging to a player in a zone form a Troop.  A Troop 
+can contain 5 Units at most: this is known as the Troop limit.  A 
+Companion tied to a Troop does not count towards that limit.
+When a player adds 1 Unit,  they take 1 Unit from their supply and 
+place it on the Kemet board; the effect states any restrictions.
+When Units are removed from the Kemet board,  for any reason,  
+they go back to their owner’s Supply.
+Important! During an action,  a Troop may temporarily exceed 
+the Troop limit,  the Creature limit,  and the Servant limit,  provided 
+these limits are assessed at the end of that action in every zone.
+Compagnon
+Any Creature or Servant tied to a Troop.
+7- GLOSSARY
+Cards
+Hand size is unlimited,  and the number of each kind of card a 
+player has in their hand is public knowledge,  but the cards 
+themselves are kept secret.
+Revealed Battle card discard piles and DI cards discard pile are 
+public to all players.
+Whenever the DI deck is empty,  shuffle the DI discard pile to 
+create a new DI deck.
+To play a DI card,  pay its cost in PP during the Phase corresponding 
+to its icon (see Player Aid),  resolve its effect,  then discard it face up 
+in the DI cards discard pile.
+
+=== PAGE 20 ===
+Designer : 
+JAcques  b Ariot  And  Guill Aume  m ontiAGe
+Illustrations :
+Pierre  s Ant AmAriA ,  e mile  d enis  And  m ehdi  b oukhezzer
+Sculptures :
+f r Ancesco  o rrù  And  ArJ k Abol As
+Graphic design: 
+Anthony  q uestel  And  l Aur A ArrescurrenAGA
+Special thanks:
+It’s been 12 years since the first edition of Kemet was released (2012).  Yet,  we’re pleased to see there is still as much 
+enthusiasm for this project as before.
+This new chapter in our favorite gods’  adventures is a new occasion to thank our dear testers Claire,  Stella,  Etienne,  
+Pierre,  Fred and Ian.  Their precious feedback helped us in refining all details of the gameplay.
+We’d also like to use this occasion to pay a new tribute to the team at Matagot for their involvement in this project:
+Laura,  Anthony,  Auguste,  Raphaël “Pikaraph”  and Zongxiu.
+Special thanks to Arnaud for his unwavering trust and wonderful suggestions.
+Finally,  we’d also like to thank all the players who made it possible for Kemet Blood & Sand to live on with such 
+passion.
+Hoping to see you soon around sandy and blood-stained gaming tables…
+Guillaume and Jacques
+KBS-Base_EN_rev51_2024-06-12
+1 - COMPONENTS ................................p.2
+1.1 The Kemet board................................... p.2
+1.2 Player boards ........................................p.3
+1.3 Power tiles ............................................p.3
+1.4 Divine Intervention cards .......................p.3
+1.5 Battle cards ...........................................p.3
+1.6 Pyramid Levels ...................................... p.3
+2 - SETUP ............................................... p.4
+2.1 Common setup ......................................p.4
+2.2 Individual setup .................................... p.5
+2.3 Before starting to play ........................... p.5
+3 - GAMEPLAY ...................................... p.6
+3.1 - Introduction ........................................p.6
+3.2 - Game end ........................................... p.6
+3.3 - Day Phase .......................................... p.7
+3.4 - Actions ............................................... p.8
+3.5 - Battle ............................................... p.10
+3.6 - Night Phase ...................................... p.11
+4 - TEAM MODE ................................. p.12
+5 - SOLO MODE .................................. p.14
+6 - MODULE: GODS OF EGYPT ....... p.18
+7 - GLOSSARY ......................................p.19
+CREDITS
+TABLE OF CONTENTS

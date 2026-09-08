@@ -1,0 +1,161 @@
+{
+  "scope": "Kemet: Rise of the Gods / Gods of Egypt 模块；非 Ankh，非初版 Kemet: Seth",
+  "verification_status": "已视觉读取官方预览六神卡，辅助页2024_v50_EN的文本可由搜索索引读取，但该PDF本次未能下载；生命值数字有预览图证据，仍应对照用户实际印刷版。",
+  "sources": [
+    {
+      "id": "official_campaign_photo",
+      "kind": "官方Gamefound预览图片，已视觉读取",
+      "url": "https://imgcdn.gamefound.com/richtextimage/richtext/ffa84a08-0f81-4ca9-9f0e-2c1fb371f0e4.jpg",
+      "page_url": "https://gamefound.com/en/projects/matagot/kemet-rise-of-the-gods/updates/3",
+      "local_path": "research/gods_campaign_photo.jpg"
+    },
+    {
+      "id": "official_player_aid_metadata",
+      "kind": "发行方matagot_contact发布的2024年7月8日WIP辅助页",
+      "url": "https://boardgamegeek.com/filepage/282440/wip-updated-player-aid",
+      "filename": "Kemet_player aid_2024_v50_EN.pdf",
+      "bgg_file_id": 393305
+    },
+    {
+      "id": "player_aid_indexed_text",
+      "kind": "同名辅助资料的公开镜像搜索索引；列间文字次序交错，结合神卡图标核对归属",
+      "url": "https://tesera.ru/images/items/2508538/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BA%D0%B0%20Kemet%20RoG.pdf"
+    }
+  ],
+  "gods": [
+    {
+      "name": "Anubis",
+      "name_zh": "阿努比斯",
+      "life_max": 4,
+      "strength": 7,
+      "life_evidence": "官方预览图右下神卡生命轨0至4",
+      "effects": [
+        {
+          "phase": "移动行动",
+          "effect": "神祇本身＋1一般移动。"
+        },
+        {
+          "phase": "阿努比斯参与的战斗，战斗结束步骤",
+          "effect": "可以免费向你控制的城区和／或你的军团添加士兵，数量上限为阿努比斯在本次战斗失去的生命值与对方被移除的士兵数之和。"
+        },
+        {
+          "phase": "你的军团战斗时",
+          "effect": "战斗发生在你自己的城区时，＋1战力。"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "name": "Seth",
+      "name_zh": "赛特",
+      "life_max": 4,
+      "strength": 7,
+      "life_evidence": "官方预览图右上神卡生命轨0至4",
+      "effects": [
+        {
+          "phase": "移动行动",
+          "effect": "神祇本身＋1一般移动。"
+        },
+        {
+          "phase": "赛特参与的战斗，正面交锋步骤结束时",
+          "effect": "抽2张神谕卡并展示。若至少一张是战斗类神谕卡，选择其中一张战斗类卡免费使用，将效果应用于本次战斗，另一张弃掉；若两张都不是战斗类，保留一张入手，另一张弃掉。"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "name": "Sobek",
+      "name_zh": "索贝克",
+      "life_max": 5,
+      "strength": 7,
+      "life_evidence": "官方预览图上中蓝色神卡生命轨0至5",
+      "effects": [
+        {
+          "phase": "购买神祇时",
+          "effect": "拿回已弃掉的战斗牌，从中秘密选择一张移出游戏，以特殊战斗牌“Sobek’s Wrath”取代。被移除的牌保密；这张特殊牌也可用于索贝克本身未参战的战斗。"
+        },
+        {
+          "phase": "移动行动",
+          "effect": "神祇本身＋1一般移动。"
+        },
+        {
+          "phase": "战斗",
+          "effect": "辅助页索引文本记载＋1伤害；预览图的对应图标带进攻箭头，是否仅在进攻时生效须按实际卡核对。"
+        }
+      ],
+      "uncertain": [
+        "＋1伤害的进攻／防守适用范围：官方预览图与辅助页纯文本存在限制信息差异。",
+        "本次未读取Sobek’s Wrath特殊战斗牌本身，不能填写其战力／伤害／盾数值。"
+      ]
+    },
+    {
+      "name": "Ouadjet",
+      "name_zh": "瓦吉特",
+      "life_max": 4,
+      "strength": 7,
+      "life_evidence": "官方预览图左下绿色神卡生命轨0至4",
+      "effects": [
+        {
+          "phase": "每个白昼阶段一次",
+          "effect": "可以将1个自己的绿色行动标记放在个人面板上一个已经有绿色行动标记的行动格，立即执行该行动；仍遵守行动层数平衡规则。"
+        },
+        {
+          "phase": "移动行动",
+          "effect": "神祇本身＋1一般移动。"
+        }
+      ],
+      "notes": "这是允许使用自己的行动标记重复一个已经占用的格子，不是凭空增加一个免费行动。",
+      "uncertain": []
+    },
+    {
+      "name": "Horus",
+      "name_zh": "荷鲁斯",
+      "life_max": 3,
+      "strength": 7,
+      "life_evidence": "官方预览图中央红色神卡生命轨0至3",
+      "effects": [
+        {
+          "phase": "移动行动",
+          "effect": "荷鲁斯可以免费传送到任意一个不是对手城区的地区。"
+        },
+        {
+          "phase": "荷鲁斯参与的战斗，战斗结束步骤",
+          "effect": "将荷鲁斯的生命标记移到3。"
+        }
+      ],
+      "notes": "辅助页没有在该条明确处理生命已降为0、模型已离场的情况；不要由“移到3”自行解释为模型在原地复活。",
+      "uncertain": [
+        "生命归零后是否及如何应用战后恢复，需结合实物说明或官方澄清；本次不作原地复活解释。"
+      ]
+    },
+    {
+      "name": "Bastet",
+      "name_zh": "巴斯泰特",
+      "life_max": 4,
+      "strength": 7,
+      "life_evidence": "官方预览图左上金色神卡生命轨0至4",
+      "effects": [
+        {
+          "phase": "移动行动",
+          "effect": "神祇本身＋1一般移动。"
+        },
+        {
+          "phase": "战斗",
+          "effect": "巴斯泰特＋1防御盾。"
+        },
+        {
+          "phase": "夜晚，神庙控制步骤",
+          "effect": "若巴斯泰特控制一个神庙，获得1点神圣声望。该步骤最多获得1点神圣声望。"
+        }
+      ],
+      "notes": "该步骤的1点上限意味着不能把此能力与普通同时控制两座神庙的奖励合计为2点。",
+      "uncertain": []
+    }
+  ],
+  "important_limits": [
+    "生命最大值目前依据官方预览图，不能称为已核验用户实体印刷版。",
+    "六神基础战力均为7；不能把生命值当作神祇战力。",
+    "神祇不能与普通士兵或伙伴绑定；因此圣象、凤凰等同行伙伴不能直接强化神祇。",
+    "神祇死亡、召回、再部署与全局能力持续性应以主规则及对应神卡为准。"
+  ]
+}

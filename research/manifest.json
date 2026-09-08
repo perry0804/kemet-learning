@@ -1,0 +1,214 @@
+{
+  "included_files": [
+    {
+      "file": "abilities_amber.json",
+      "source_sha256": "bec2c6f0f7c76ee825bf189b71c033146cc27c5cdee05ffe188d05e48c36a5db",
+      "bytes": 10119,
+      "archived_sha256": "bec2c6f0f7c76ee825bf189b71c033146cc27c5cdee05ffe188d05e48c36a5db",
+      "path_normalized": false
+    },
+    {
+      "file": "abilities_red_blue.json",
+      "source_sha256": "8eeac0f48df1f875db69d9667b8d0b448cfb4d6c715a95221ae2ab6f6537f6f2",
+      "bytes": 14518,
+      "archived_sha256": "8eeac0f48df1f875db69d9667b8d0b448cfb4d6c715a95221ae2ab6f6537f6f2",
+      "path_normalized": false
+    },
+    {
+      "file": "abilities_white_black.json",
+      "source_sha256": "8d4bcda9b26603571c5d73a3f6865ee048a55f869ed14aaf2ba6c97331d97c6a",
+      "bytes": 16556,
+      "archived_sha256": "8d4bcda9b26603571c5d73a3f6865ee048a55f869ed14aaf2ba6c97331d97c6a",
+      "path_normalized": false
+    },
+    {
+      "file": "aid.pdf",
+      "source_sha256": "d48782a6d126baadc69beef3f37a643f10798916bc8e4460a3deacc36fbb8b51",
+      "bytes": 902,
+      "archived_sha256": "d48782a6d126baadc69beef3f37a643f10798916bc8e4460a3deacc36fbb8b51",
+      "path_normalized": false
+    },
+    {
+      "file": "assemble_manual.py",
+      "source_sha256": "8f1cb24cf4137d5361016bd764a412cb9eef37204b3d1bf62cf88553db9f21d4",
+      "bytes": 8378,
+      "archived_sha256": "28406fafc2e9ac97c85e6ab4d592fe41dfdb9ef2d780235671b16934f897690c",
+      "path_normalized": true
+    },
+    {
+      "file": "asset_positions.json",
+      "source_sha256": "d78a40799f987902c060241d84d9fe4a2b593811b8b14ea76e10bb2385f8a61f",
+      "bytes": 79541,
+      "archived_sha256": "4eb57abaaadbad41152a1a3e3b40a73b2090924acd269a989a968717e54d8ecd",
+      "path_normalized": true
+    },
+    {
+      "file": "assets/kemet-egypt-atmosphere.png",
+      "source_sha256": "11f8b93749bc5e69178c1405570b60c675691a9813904c20bff0a5c73c6b948e",
+      "bytes": 1447984,
+      "archived_sha256": "11f8b93749bc5e69178c1405570b60c675691a9813904c20bff0a5c73c6b948e",
+      "path_normalized": false
+    },
+    {
+      "file": "assets/kemet-egypt-atmosphere.prompt.txt",
+      "source_sha256": "e2ec401c05a8927db175549c9d96b244de53e944054de6eb67f50de64b64cac2",
+      "bytes": 1326,
+      "archived_sha256": "e2ec401c05a8927db175549c9d96b244de53e944054de6eb67f50de64b64cac2",
+      "path_normalized": false
+    },
+    {
+      "file": "battle_photo_3cards.jpg",
+      "source_sha256": "f1b165b019af49952d55feea3034a92967f2281b2e614636025cd01a52fb441e",
+      "bytes": 281845,
+      "archived_sha256": "f1b165b019af49952d55feea3034a92967f2281b2e614636025cd01a52fb441e",
+      "path_normalized": false
+    },
+    {
+      "file": "battle_rules-03.png",
+      "source_sha256": "39038f16828b6781ecccd8d668218d7895f92053fdf4da74b67e38d42c924c9f",
+      "bytes": 3338823,
+      "archived_sha256": "39038f16828b6781ecccd8d668218d7895f92053fdf4da74b67e38d42c924c9f",
+      "path_normalized": false
+    },
+    {
+      "file": "battle_rules-04.png",
+      "source_sha256": "677b93a6ba4503ed57728bbc89fa651fdf4cc527912774f83cc6efd3c0d4c89b",
+      "bytes": 3792353,
+      "archived_sha256": "677b93a6ba4503ed57728bbc89fa651fdf4cc527912774f83cc6efd3c0d4c89b",
+      "path_normalized": false
+    },
+    {
+      "file": "battle_rules-05.png",
+      "source_sha256": "8635a5a1993a2148a46bc1fdb454fdbb3d1d0d33ae83c1c24f60a724894f97df",
+      "bytes": 4215796,
+      "archived_sha256": "8635a5a1993a2148a46bc1fdb454fdbb3d1d0d33ae83c1c24f60a724894f97df",
+      "path_normalized": false
+    },
+    {
+      "file": "battle_scenarios.json",
+      "source_sha256": "410b3cd5a813d190c16c7be8cb78c1d314f34d0b6e07f23ac10bb5ebbd83993b",
+      "bytes": 16811,
+      "archived_sha256": "410b3cd5a813d190c16c7be8cb78c1d314f34d0b6e07f23ac10bb5ebbd83993b",
+      "path_normalized": false
+    },
+    {
+      "file": "battle_special_3_3.jpg",
+      "source_sha256": "8d1754009fb920ad03be974a35558258e7a07f759fd7e6058a836ca80a759604",
+      "bytes": 68819,
+      "archived_sha256": "8d1754009fb920ad03be974a35558258e7a07f759fd7e6058a836ca80a759604",
+      "path_normalized": false
+    },
+    {
+      "file": "combat_cards_verified.json",
+      "source_sha256": "d52daac52993646745842423e7400b2ac297a5025a8d1408a8b0051a2b37c31e",
+      "bytes": 33606,
+      "archived_sha256": "2800238fa8dc32b8c79bb97692d23aa6ca897629e9fc46bbb50591950ee676eb",
+      "path_normalized": true
+    },
+    {
+      "file": "di_base_verified.png",
+      "source_sha256": "36a822697c3e2dbc304a0b4321c55e0588473f238bad9d3922969be720c6aa0d",
+      "bytes": 759589,
+      "archived_sha256": "36a822697c3e2dbc304a0b4321c55e0588473f238bad9d3922969be720c6aa0d",
+      "path_normalized": false
+    },
+    {
+      "file": "game-ui-check.png",
+      "source_sha256": "68bdd3f213a0121f126f0d37fe96e377ea93871806796b0e7a3a13bf9d2a4e48",
+      "bytes": 79824,
+      "archived_sha256": "68bdd3f213a0121f126f0d37fe96e377ea93871806796b0e7a3a13bf9d2a4e48",
+      "path_normalized": false
+    },
+    {
+      "file": "game-ui-desktop.png",
+      "source_sha256": "b8e71b04bccf487e0081fe30270814aef38ddd64c1083159e7274fc87124f5d9",
+      "bytes": 3045159,
+      "archived_sha256": "b8e71b04bccf487e0081fe30270814aef38ddd64c1083159e7274fc87124f5d9",
+      "path_normalized": false
+    },
+    {
+      "file": "game_model_notes.md",
+      "source_sha256": "45f9d1a3e0ce812a9f1a548ebfad13b815e0323ba6b237d41e676c166dfbf13b",
+      "bytes": 27716,
+      "archived_sha256": "6f29489bb031ec9c1be64c26b77e19138e708e143b436cb350193dd2db6f03d8",
+      "path_normalized": true
+    },
+    {
+      "file": "game_model_playerboard.png",
+      "source_sha256": "bb1140ea633c57630e514c46c947796b65004e74c1d584593491481d5a1fca26",
+      "bytes": 3857838,
+      "archived_sha256": "bb1140ea633c57630e514c46c947796b65004e74c1d584593491481d5a1fca26",
+      "path_normalized": false
+    },
+    {
+      "file": "gods_campaign_photo.jpg",
+      "source_sha256": "f29f24ce9ee0c333f18be360a9e10566907be40f50590f10e67c27c9516e425d",
+      "bytes": 1901537,
+      "archived_sha256": "f29f24ce9ee0c333f18be360a9e10566907be40f50590f10e67c27c9516e425d",
+      "path_normalized": false
+    },
+    {
+      "file": "gods_verified.json",
+      "source_sha256": "a1f74b824931c53b2f0a574399e556d8c6b696684a3346bd3803ee17b85fdccb",
+      "bytes": 6588,
+      "archived_sha256": "5d9c11b543cd8353c4b87ac0dc60e2492b6434a3d2bd763355ebedb8b646a90c",
+      "path_normalized": true
+    },
+    {
+      "file": "kemet_official_rules.pdf",
+      "source_sha256": "b211de194e6ea48e969751fc3fb297244d53c85e1ead5576bd0aebf5f0f6295f",
+      "bytes": 43894296,
+      "archived_sha256": "b211de194e6ea48e969751fc3fb297244d53c85e1ead5576bd0aebf5f0f6295f",
+      "path_normalized": false
+    },
+    {
+      "file": "manual_core.md",
+      "source_sha256": "c953679d2cdf9c9815d9dcd46c66a368876e0585c614411365cedb88cbd00033",
+      "bytes": 38200,
+      "archived_sha256": "c953679d2cdf9c9815d9dcd46c66a368876e0585c614411365cedb88cbd00033",
+      "path_normalized": false
+    },
+    {
+      "file": "map_regions.json",
+      "source_sha256": "c5170d0fac96107f4fb2feff4e840bddd5d8a9a2d05a9753f66774a98568fed8",
+      "bytes": 38728,
+      "archived_sha256": "345856b7f78587550c70bef6266ac1a281c8412fd13d8d8132d2a74bc9c9dade",
+      "path_normalized": true
+    },
+    {
+      "file": "rules.pdf",
+      "source_sha256": "b211de194e6ea48e969751fc3fb297244d53c85e1ead5576bd0aebf5f0f6295f",
+      "bytes": 43894296,
+      "archived_sha256": "b211de194e6ea48e969751fc3fb297244d53c85e1ead5576bd0aebf5f0f6295f",
+      "path_normalized": false
+    },
+    {
+      "file": "rules.txt",
+      "source_sha256": "e8145e4e8f2d6408a49c32f7416b518210ec00c9bfbeab83743220615e880a6a",
+      "bytes": 65202,
+      "archived_sha256": "e8145e4e8f2d6408a49c32f7416b518210ec00c9bfbeab83743220615e880a6a",
+      "path_normalized": false
+    },
+    {
+      "file": "selfplay.cjs",
+      "source_sha256": "261a939fb29cbe8f633e31b81aeaef8eef8410244a28d102334b36135ddd2a60",
+      "bytes": 1405,
+      "archived_sha256": "261a939fb29cbe8f633e31b81aeaef8eef8410244a28d102334b36135ddd2a60",
+      "path_normalized": false
+    }
+  ],
+  "excluded": [
+    "node_modules and dependency caches",
+    "framework/Worker build outputs and runtime state",
+    "game-compiled",
+    "swift-module-cache",
+    "kemet-site.tar.gz deployment package",
+    ".DS_Store"
+  ],
+  "notes": [
+    "Personal absolute paths in text records are normalized to repository-relative paths.",
+    "assemble_manual.py resolves its root relative to its own file and creates outputs/ when run.",
+    "rules.pdf and kemet_official_rules.pdf are byte-identical; both names are kept for historical references.",
+    "aid.pdf is an HTML error response from an unsuccessful download, not a valid rules PDF."
+  ]
+}

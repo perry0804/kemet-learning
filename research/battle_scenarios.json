@@ -1,0 +1,492 @@
+{
+  "version": 1,
+  "source_md": "outputs/圣域血与沙_六人完整规则与玩法建议.md",
+  "source_sections": [
+    "八 完整战斗结算",
+    "十二 结算实例 12.1–12.3"
+  ],
+  "title": "四个基础战斗教学预设",
+  "display_scope": {
+    "short": "练习已亮牌后的基础结算：比战力 → 算伤亡 → 发基础奖励 → 处理去留。此演示不判断实际出牌和能力组合是否合法。",
+    "details": "只演示普通士兵军团。所有场景均不在城区，伤害与防御填写本次适用效果的合计；未加入神祇、神谕、绝对防御、自损、额外给分、战后补兵或特殊老兵效果。败方撤退均假定存在合法的相邻空地区。实际对局遇到这些例外，应查实体卡和完整规则。",
+    "input_hint": "“战斗牌战力”仅指战力数值；“普通伤害”“普通防御”是本次战斗各项适用来源的总和，不能再把能力中的相同数值重复加一次。",
+    "card_hint": "这些数值用于结算练习，不把某组自定义数字标注成一张真实存在的命名战斗牌。",
+    "state_hint": "结果同时区分“伤亡结算后剩兵”和“战后位置”。召回的士兵进入供应区，不能显示为被击杀。",
+    "score_hint": "“战斗分”为永久分；“神庙分”为临时分；老兵与祈祷都不是分数。本演示不给出整局获胜判断。"
+  },
+  "calculation_model": {
+    "strength": "soldiers + card_strength + ability_strength",
+    "winner": "进攻总战力严格大于防守总战力时进攻胜，否则防守胜；先记录胜负，伤亡后不重算。",
+    "casualty_order": "本组没有绝对防御与自损。若开放真实伤害输入，先结算对方真实伤害，再结算max(0,对方普通伤害－己方普通防御)，损失上限为己方士兵数。",
+    "reward": "只考虑基础奖励：进攻胜且伤亡后有兵，得1战斗分；防守胜先得1老兵；本奖励步骤未得分者各再得1老兵。",
+    "winner_recall": "普通胜方在伤亡后还有X个士兵时可召回，获得X－1祈祷；已得到的基础战斗分不被撤销。",
+    "temple_control": "神庙临时分依败方与胜方去留后的最终控制权处理；败方在本例均离开，因此不保留其旧神庙分。"
+  },
+  "ui_suggestions": [
+    "标题明确写“战斗结算练习”，不要写“完整自动裁判”或“保证胜率”。",
+    "赢家、伤亡、基础奖励依序展示，并单独提示平局防守胜和赢家也会死兵。",
+    "可编辑输入改变时，重新计算结果；教学答案保留为“预设原始结果”，避免把固定答案当成当前结果。",
+    "第4例去留按钮在奖励之后展示，突出永久分不受召回影响；同时显示对手失去的神庙临时分。",
+    "若开放真实伤害输入，在旁提示普通盾不能抵挡；没有绝对防御输入时不要暗示已覆盖绝对防御规则。"
+  ],
+  "scenarios": [
+    {
+      "id": "strength_and_casualties",
+      "order": 1,
+      "title": "赢了，也会损兵",
+      "subtitle": "圣象与冲锋增强战力，盾单独减少伤亡。",
+      "location": {
+        "kind": "desert",
+        "label": "普通沙漠地区",
+        "is_home_district": false,
+        "temple_fp": 0,
+        "initial_controller": "defender"
+      },
+      "attacker": {
+        "soldiers": 5,
+        "card_strength": 3,
+        "ability_strength": 2,
+        "ordinary_damage": 2,
+        "true_damage": 0,
+        "ordinary_shield": 1
+      },
+      "defender": {
+        "soldiers": 4,
+        "card_strength": 2,
+        "ability_strength": 0,
+        "ordinary_damage": 3,
+        "true_damage": 0,
+        "ordinary_shield": 0
+      },
+      "ability_notes": {
+        "attacker_strength": "远古圣象＋1，冲锋＋1，合计＋2；圣象不是额外的一个士兵。",
+        "attacker_shield": "远古圣象提供1点普通防御。",
+        "damage": "双方普通伤害为本次战斗适用效果的汇总值。"
+      },
+      "expected": {
+        "total_strength": {
+          "attacker": 10,
+          "defender": 6
+        },
+        "winner": "attacker",
+        "remaining_after_casualties": {
+          "attacker": 3,
+          "defender": 2
+        },
+        "casualties": {
+          "attacker": 2,
+          "defender": 2
+        },
+        "reward_step": {
+          "base_battle_fp": {
+            "attacker": 1,
+            "defender": 0
+          },
+          "veteran_tokens": {
+            "attacker": 0,
+            "defender": 1
+          }
+        }
+      },
+      "aftermath": {
+        "defender": {
+          "action": "retreat",
+          "soldiers_moved": 2,
+          "destination": "合法的相邻空地区",
+          "prayer_gain": 0
+        },
+        "attacker": {
+          "action": "stay",
+          "soldiers_in_battle_zone": 3,
+          "prayer_gain": 0
+        },
+        "final_battle_zone": {
+          "controller": "attacker",
+          "soldiers": 3
+        },
+        "temporary_fp_delta": {
+          "attacker": 0,
+          "defender": 0
+        }
+      },
+      "explanations": [
+        "先比较战力：进攻5＋3＋2＝10，防守4＋2＝6，所以进攻方获胜。",
+        "进攻方承受3点普通伤害，以1盾抵挡，损失2兵，剩3兵。",
+        "防守方承受2点普通伤害，没有盾，损失2兵，剩2兵。",
+        "进攻胜且奖励时还有兵，得1永久战斗分、0老兵；防守败方得1老兵。",
+        "败方撤退，胜方留驻。普通沙漠没有神庙临时分。"
+      ],
+      "suggested_interaction": {
+        "label": "把进攻方的盾从1改成3",
+        "patch": {
+          "attacker": {
+            "ordinary_shield": 3
+          }
+        },
+        "expected": {
+          "winner": "attacker",
+          "remaining_after_casualties": {
+            "attacker": 5,
+            "defender": 2
+          },
+          "base_battle_fp": {
+            "attacker": 1,
+            "defender": 0
+          },
+          "veteran_tokens": {
+            "attacker": 0,
+            "defender": 1
+          }
+        },
+        "lesson": "盾提高后少死兵，但战力和胜负没有变化。"
+      }
+    },
+    {
+      "id": "tie_favors_defender",
+      "order": 2,
+      "title": "7 比 7，防守方赢",
+      "subtitle": "胜负比较只看战力；平局规则偏向防守方。",
+      "location": {
+        "kind": "desert",
+        "label": "普通沙漠地区",
+        "is_home_district": false,
+        "temple_fp": 0,
+        "initial_controller": "defender"
+      },
+      "attacker": {
+        "soldiers": 4,
+        "card_strength": 3,
+        "ability_strength": 0,
+        "ordinary_damage": 2,
+        "true_damage": 0,
+        "ordinary_shield": 0
+      },
+      "defender": {
+        "soldiers": 5,
+        "card_strength": 2,
+        "ability_strength": 0,
+        "ordinary_damage": 1,
+        "true_damage": 0,
+        "ordinary_shield": 1
+      },
+      "expected": {
+        "total_strength": {
+          "attacker": 7,
+          "defender": 7
+        },
+        "winner": "defender",
+        "remaining_after_casualties": {
+          "attacker": 3,
+          "defender": 4
+        },
+        "casualties": {
+          "attacker": 1,
+          "defender": 1
+        },
+        "reward_step": {
+          "base_battle_fp": {
+            "attacker": 0,
+            "defender": 0
+          },
+          "veteran_tokens": {
+            "attacker": 1,
+            "defender": 2
+          }
+        }
+      },
+      "aftermath": {
+        "attacker": {
+          "action": "retreat",
+          "soldiers_moved": 3,
+          "destination": "合法的相邻空地区",
+          "prayer_gain": 0
+        },
+        "defender": {
+          "action": "stay",
+          "soldiers_in_battle_zone": 4,
+          "prayer_gain": 0
+        },
+        "final_battle_zone": {
+          "controller": "defender",
+          "soldiers": 4
+        },
+        "temporary_fp_delta": {
+          "attacker": 0,
+          "defender": 0
+        }
+      },
+      "explanations": [
+        "进攻4＋3＝7，防守5＋2＝7；平局由防守方获胜。",
+        "进攻方损失1兵，剩3兵；防守方用1盾挡住2伤害中的1点，损失1兵，剩4兵。",
+        "普通防守胜不拿基础进攻战斗分。",
+        "防守方因获胜得1老兵，又因本奖励步骤未得分再得1，共2老兵；进攻方未得分，得1老兵。",
+        "进攻方撤退，防守方继续留驻。"
+      ],
+      "suggested_interaction": {
+        "label": "把进攻战斗牌战力从3改成4",
+        "patch": {
+          "attacker": {
+            "card_strength": 4
+          }
+        },
+        "expected": {
+          "winner": "attacker",
+          "total_strength": {
+            "attacker": 8,
+            "defender": 7
+          },
+          "remaining_after_casualties": {
+            "attacker": 3,
+            "defender": 4
+          },
+          "base_battle_fp": {
+            "attacker": 1,
+            "defender": 0
+          },
+          "veteran_tokens": {
+            "attacker": 0,
+            "defender": 1
+          }
+        },
+        "lesson": "只提高1战力就越过平局门槛；伤亡不变，赢家和奖励改变。"
+      }
+    },
+    {
+      "id": "winner_eliminated",
+      "order": 3,
+      "title": "赢下战斗，却拿不到战斗分",
+      "subtitle": "胜负在伤亡前确定；基础进攻分还要求奖励时有兵。",
+      "location": {
+        "kind": "desert",
+        "label": "普通沙漠地区",
+        "is_home_district": false,
+        "temple_fp": 0,
+        "initial_controller": "defender"
+      },
+      "attacker": {
+        "soldiers": 3,
+        "card_strength": 3,
+        "ability_strength": 2,
+        "ordinary_damage": 1,
+        "true_damage": 0,
+        "ordinary_shield": 1
+      },
+      "defender": {
+        "soldiers": 4,
+        "card_strength": 2,
+        "ability_strength": 0,
+        "ordinary_damage": 4,
+        "true_damage": 0,
+        "ordinary_shield": 0
+      },
+      "expected": {
+        "total_strength": {
+          "attacker": 8,
+          "defender": 6
+        },
+        "winner": "attacker",
+        "remaining_after_casualties": {
+          "attacker": 0,
+          "defender": 3
+        },
+        "casualties": {
+          "attacker": 3,
+          "defender": 1
+        },
+        "reward_step": {
+          "base_battle_fp": {
+            "attacker": 0,
+            "defender": 0
+          },
+          "veteran_tokens": {
+            "attacker": 1,
+            "defender": 1
+          }
+        }
+      },
+      "aftermath": {
+        "defender": {
+          "action": "retreat",
+          "soldiers_moved": 3,
+          "destination": "合法的相邻空地区",
+          "prayer_gain": 0
+        },
+        "attacker": {
+          "action": "eliminated",
+          "soldiers_in_battle_zone": 0,
+          "prayer_gain": 0
+        },
+        "final_battle_zone": {
+          "controller": null,
+          "soldiers": 0
+        },
+        "temporary_fp_delta": {
+          "attacker": 0,
+          "defender": 0
+        }
+      },
+      "explanations": [
+        "比较战力时进攻3＋3＋2＝8，防守4＋2＝6，进攻方已获胜。",
+        "防守方造成4普通伤害，进攻方只有1盾，3个士兵全被移除。",
+        "防守方遭受1伤害，剩3兵；这不会把已确定的胜负反转。",
+        "进攻方奖励时没有军团，基础战斗分为0；双方本奖励步骤都没得分，各得1老兵。",
+        "防守方虽然还活着，仍是败方，必须撤退或召回。本例选择撤退，所以战斗地区最后无人控制。",
+        "进攻方没有剩兵可召回，不获得召回祈祷值；这不是一次召回。"
+      ],
+      "suggested_interaction": {
+        "label": "把进攻方的盾从1改成2",
+        "patch": {
+          "attacker": {
+            "ordinary_shield": 2
+          }
+        },
+        "expected": {
+          "winner": "attacker",
+          "remaining_after_casualties": {
+            "attacker": 1,
+            "defender": 3
+          },
+          "base_battle_fp": {
+            "attacker": 1,
+            "defender": 0
+          },
+          "veteran_tokens": {
+            "attacker": 0,
+            "defender": 1
+          }
+        },
+        "lesson": "多1盾保住最后1个兵，胜负不变，却满足了基础战斗分条件。"
+      }
+    },
+    {
+      "id": "temple_stay_or_recall",
+      "order": 4,
+      "title": "攻下神庙后，留下还是召回？",
+      "subtitle": "永久战斗分先结算；去留决定临时神庙分和回收祈祷。",
+      "location": {
+        "kind": "temple",
+        "label": "带1点临时分的普通神庙",
+        "is_home_district": false,
+        "temple_fp": 1,
+        "initial_controller": "defender"
+      },
+      "attacker": {
+        "soldiers": 5,
+        "card_strength": 3,
+        "ability_strength": 1,
+        "ordinary_damage": 2,
+        "true_damage": 0,
+        "ordinary_shield": 1
+      },
+      "defender": {
+        "soldiers": 4,
+        "card_strength": 2,
+        "ability_strength": 0,
+        "ordinary_damage": 2,
+        "true_damage": 0,
+        "ordinary_shield": 0
+      },
+      "expected": {
+        "total_strength": {
+          "attacker": 9,
+          "defender": 6
+        },
+        "winner": "attacker",
+        "remaining_after_casualties": {
+          "attacker": 4,
+          "defender": 2
+        },
+        "casualties": {
+          "attacker": 1,
+          "defender": 2
+        },
+        "reward_step": {
+          "base_battle_fp": {
+            "attacker": 1,
+            "defender": 0
+          },
+          "veteran_tokens": {
+            "attacker": 0,
+            "defender": 1
+          }
+        }
+      },
+      "loser_aftermath": {
+        "side": "defender",
+        "action": "retreat",
+        "soldiers_moved": 2,
+        "destination": "合法的相邻空地区",
+        "prayer_gain": 0
+      },
+      "winner_choices": [
+        {
+          "id": "stay",
+          "label": "留下4个士兵",
+          "action": "stay",
+          "attacker_on_map_in_battle_zone": 4,
+          "attacker_returned_to_supply": 0,
+          "attacker_prayer_gain": 0,
+          "final_controller": "attacker",
+          "base_battle_fp": {
+            "attacker": 1,
+            "defender": 0
+          },
+          "temporary_fp_delta": {
+            "attacker": 1,
+            "defender": -1
+          },
+          "total_fp_delta": {
+            "attacker": 2,
+            "defender": -1
+          },
+          "veteran_tokens": {
+            "attacker": 0,
+            "defender": 1
+          },
+          "temple_fp_token_location": "进攻方的计分区",
+          "explanation": "进攻方保留1永久战斗分，并因最终控制神庙取得1临时分，总计增加2分；防守方失去此前持有的1临时分。"
+        },
+        {
+          "id": "recall",
+          "label": "召回4个士兵",
+          "action": "recall",
+          "attacker_on_map_in_battle_zone": 0,
+          "attacker_returned_to_supply": 4,
+          "attacker_prayer_gain": 3,
+          "final_controller": null,
+          "base_battle_fp": {
+            "attacker": 1,
+            "defender": 0
+          },
+          "temporary_fp_delta": {
+            "attacker": 0,
+            "defender": -1
+          },
+          "total_fp_delta": {
+            "attacker": 1,
+            "defender": -1
+          },
+          "veteran_tokens": {
+            "attacker": 0,
+            "defender": 1
+          },
+          "temple_fp_token_location": "无人控制的神庙地区",
+          "explanation": "4个剩兵回供应，获得4－1＝3点祈祷；已拿到的1永久战斗分保留，但不取得该庙临时分。防守方已经撤退，同样失去旧的神庙临时分。"
+        }
+      ],
+      "explanations": [
+        "进攻5＋3＋1＝9，防守4＋2＝6，进攻方获胜。",
+        "进攻方受到2普通伤害，用1盾抵挡，剩4兵；防守方受到2伤害，剩2兵。",
+        "奖励先结算：进攻方1永久战斗分、0老兵；防守方0战斗分、1老兵。",
+        "败方先撤退，再由胜方选择留下或召回。下面的切换只改变去留，不重算战斗奖励。",
+        "留驻的夜晚收入尚未到账，必须控制到相应夜晚步骤；本例不预发收入，也不判断是否已经赢得整局。"
+      ],
+      "suggested_interaction": {
+        "label": "切换“留下”与“召回”",
+        "control": "winner_choice",
+        "default": "stay",
+        "lesson": "两个选项都保留永久战斗分；召回不等于战斗白打，也不等于士兵死亡。"
+      }
+    }
+  ]
+}

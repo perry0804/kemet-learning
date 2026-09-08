@@ -1,0 +1,1748 @@
+{
+  "version": "draft-1-centers-and-visible-boundaries",
+  "source": {
+    "path": "public/assets/board-photo.png",
+    "width": 2174,
+    "height": 1690,
+    "preview_width": 1792,
+    "preview_height": 1393
+  },
+  "coordinate_system": {
+    "origin": "top_left_of_board",
+    "x_direction": "left_to_right",
+    "y_direction": "top_to_bottom",
+    "range": [
+      0,
+      1
+    ],
+    "note": "x/y 与 u/v 相同，均为实体棋盘四角透视反算后的归一化平面坐标；不包含桌面。source_pixel 为原始2174x1690照片坐标。",
+    "quad_order": [
+      "top_left",
+      "top_right",
+      "bottom_right",
+      "bottom_left"
+    ],
+    "mapquad_source_pixels": {
+      "top_left": [
+        683.01451,
+        116.46429
+      ],
+      "top_right": [
+        1584.39955,
+        116.46429
+      ],
+      "bottom_right": [
+        2046.61719,
+        1153.72433
+      ],
+      "bottom_left": [
+        594.45312,
+        1222.875
+      ]
+    },
+    "mapquad_preview_pixels": {
+      "top_left": [
+        563,
+        96
+      ],
+      "top_right": [
+        1306,
+        96
+      ],
+      "bottom_right": [
+        1687,
+        951
+      ],
+      "bottom_left": [
+        490,
+        1008
+      ]
+    },
+    "source_pixel_to_board_uv_homography": [
+      [
+        0.0011083233877272809,
+        8.871448811864548e-05,
+        -0.7673330254615405
+      ],
+      [
+        -1.0849347206207688e-19,
+        0.0015457384585124147,
+        -0.18002333209634275
+      ],
+      [
+        -4.491079167890442e-05,
+        0.0006026118332554192,
+        1.0
+      ]
+    ],
+    "board_uv_to_source_pixel_homography": [
+      [
+        928.8885317067043,
+        -309.4671733452312,
+        657.0555356309885
+      ],
+      [
+        4.539929878871816,
+        603.0010299228173,
+        112.03789279357001
+      ],
+      [
+        0.0389813038732452,
+        -0.3772739718502619,
+        0.961993524311787
+      ]
+    ]
+  },
+  "counts": {
+    "regions": 37,
+    "city_districts": 18,
+    "deserts": 13,
+    "ordinary_temples": 4,
+    "delta_temples": 1,
+    "sanctuaries": 1,
+    "obelisks": 10,
+    "military_harbors": 7,
+    "trading_harbors": 4
+  },
+  "cities": [
+    {
+      "id": 0,
+      "name": "左上城",
+      "district_ids": [
+        "c0d0",
+        "c0d1",
+        "c0d2"
+      ],
+      "surrounding_desert_id": "d0"
+    },
+    {
+      "id": 1,
+      "name": "右上城",
+      "district_ids": [
+        "c1d0",
+        "c1d1",
+        "c1d2"
+      ],
+      "surrounding_desert_id": "d1"
+    },
+    {
+      "id": 2,
+      "name": "中左城",
+      "district_ids": [
+        "c2d0",
+        "c2d1",
+        "c2d2"
+      ],
+      "surrounding_desert_id": "d2"
+    },
+    {
+      "id": 3,
+      "name": "中右城",
+      "district_ids": [
+        "c3d0",
+        "c3d1",
+        "c3d2"
+      ],
+      "surrounding_desert_id": "d3"
+    },
+    {
+      "id": 4,
+      "name": "左下城",
+      "district_ids": [
+        "c4d0",
+        "c4d1",
+        "c4d2"
+      ],
+      "surrounding_desert_id": "d4"
+    },
+    {
+      "id": 5,
+      "name": "右下城",
+      "district_ids": [
+        "c5d0",
+        "c5d1",
+        "c5d2"
+      ],
+      "surrounding_desert_id": "d5"
+    }
+  ],
+  "regions": [
+    {
+      "id": "c0d0",
+      "name": "左上城·城区1",
+      "type": "district",
+      "city": 0,
+      "district": 0,
+      "x": 0.097771,
+      "y": 0.073284,
+      "u": 0.097771,
+      "v": 0.073284,
+      "source_pixel": [
+        773,
+        167
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d0",
+        "c0d1",
+        "c0d2"
+      ]
+    },
+    {
+      "id": "c0d1",
+      "name": "左上城·城区2",
+      "type": "district",
+      "city": 0,
+      "district": 1,
+      "x": 0.184338,
+      "y": 0.166096,
+      "u": 0.184338,
+      "v": 0.166096,
+      "source_pixel": [
+        857,
+        235
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d0",
+        "c0d0",
+        "c0d2"
+      ]
+    },
+    {
+      "id": "c0d2",
+      "name": "左上城·城区3",
+      "type": "district",
+      "city": 0,
+      "district": 2,
+      "x": 0.101253,
+      "y": 0.248759,
+      "u": 0.101253,
+      "v": 0.248759,
+      "source_pixel": [
+        773,
+        301
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d0",
+        "c0d0",
+        "c0d1"
+      ]
+    },
+    {
+      "id": "c1d0",
+      "name": "右上城·城区1",
+      "type": "district",
+      "city": 1,
+      "district": 0,
+      "x": 0.92807,
+      "y": 0.077195,
+      "u": 0.92807,
+      "v": 0.077195,
+      "source_pixel": [
+        1543,
+        168
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d1",
+        "c1d1",
+        "c1d2"
+      ]
+    },
+    {
+      "id": "c1d1",
+      "name": "右上城·城区2",
+      "type": "district",
+      "city": 1,
+      "district": 1,
+      "x": 0.838724,
+      "y": 0.129443,
+      "u": 0.838724,
+      "v": 0.129443,
+      "source_pixel": [
+        1476,
+        205
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d1",
+        "c1d0",
+        "c1d2"
+      ]
+    },
+    {
+      "id": "c1d2",
+      "name": "右上城·城区3",
+      "type": "district",
+      "city": 1,
+      "district": 2,
+      "x": 0.93243,
+      "y": 0.185856,
+      "u": 0.93243,
+      "v": 0.185856,
+      "source_pixel": [
+        1579,
+        246
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d1",
+        "c1d0",
+        "c1d1"
+      ]
+    },
+    {
+      "id": "c2d0",
+      "name": "中左城·城区1",
+      "type": "district",
+      "city": 2,
+      "district": 0,
+      "x": 0.345501,
+      "y": 0.568713,
+      "u": 0.345501,
+      "v": 0.568713,
+      "source_pixel": [
+        1054,
+        600
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d2",
+        "c2d1",
+        "c2d2"
+      ]
+    },
+    {
+      "id": "c2d1",
+      "name": "中左城·城区2",
+      "type": "district",
+      "city": 2,
+      "district": 1,
+      "x": 0.336974,
+      "y": 0.654562,
+      "u": 0.336974,
+      "v": 0.654562,
+      "source_pixel": [
+        1054,
+        698
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d2",
+        "c2d0",
+        "c2d2"
+      ]
+    },
+    {
+      "id": "c2d2",
+      "name": "中左城·城区3",
+      "type": "district",
+      "city": 2,
+      "district": 2,
+      "x": 0.466713,
+      "y": 0.707359,
+      "u": 0.466713,
+      "v": 0.707359,
+      "source_pixel": [
+        1222,
+        758
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d2",
+        "c2d0",
+        "c2d1"
+      ]
+    },
+    {
+      "id": "c3d0",
+      "name": "中右城·城区1",
+      "type": "district",
+      "city": 3,
+      "district": 0,
+      "x": 0.615406,
+      "y": 0.429822,
+      "u": 0.615406,
+      "v": 0.429822,
+      "source_pixel": [
+        1330,
+        454
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d3",
+        "c3d1",
+        "c3d2"
+      ]
+    },
+    {
+      "id": "c3d1",
+      "name": "中右城·城区2",
+      "type": "district",
+      "city": 3,
+      "district": 1,
+      "x": 0.734006,
+      "y": 0.438233,
+      "u": 0.734006,
+      "v": 0.438233,
+      "source_pixel": [
+        1458,
+        460
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d3",
+        "c3d0",
+        "c3d2"
+      ]
+    },
+    {
+      "id": "c3d2",
+      "name": "中右城·城区3",
+      "type": "district",
+      "city": 3,
+      "district": 2,
+      "x": 0.694064,
+      "y": 0.533899,
+      "u": 0.694064,
+      "v": 0.533899,
+      "source_pixel": [
+        1443,
+        555
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d3",
+        "c3d0",
+        "c3d1"
+      ]
+    },
+    {
+      "id": "c4d0",
+      "name": "左下城·城区1",
+      "type": "district",
+      "city": 4,
+      "district": 0,
+      "x": 0.094694,
+      "y": 0.807678,
+      "u": 0.094694,
+      "v": 0.807678,
+      "source_pixel": [
+        749,
+        907
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d4",
+        "c4d1",
+        "c4d2"
+      ]
+    },
+    {
+      "id": "c4d1",
+      "name": "左下城·城区2",
+      "type": "district",
+      "city": 4,
+      "district": 1,
+      "x": 0.113915,
+      "y": 0.921557,
+      "u": 0.113915,
+      "v": 0.921557,
+      "source_pixel": [
+        772,
+        1080
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d4",
+        "c4d0",
+        "c4d2"
+      ]
+    },
+    {
+      "id": "c4d2",
+      "name": "左下城·城区3",
+      "type": "district",
+      "city": 4,
+      "district": 2,
+      "x": 0.268691,
+      "y": 0.924842,
+      "u": 0.268691,
+      "v": 0.924842,
+      "source_pixel": [
+        995,
+        1076
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d4",
+        "c4d0",
+        "c4d1"
+      ]
+    },
+    {
+      "id": "c5d0",
+      "name": "右下城·城区1",
+      "type": "district",
+      "city": 5,
+      "district": 0,
+      "x": 0.922765,
+      "y": 0.831781,
+      "u": 0.922765,
+      "v": 0.831781,
+      "source_pixel": [
+        1837,
+        903
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d5",
+        "c5d1",
+        "c5d2"
+      ]
+    },
+    {
+      "id": "c5d1",
+      "name": "右下城·城区2",
+      "type": "district",
+      "city": 5,
+      "district": 1,
+      "x": 0.732635,
+      "y": 0.923585,
+      "u": 0.732635,
+      "v": 0.923585,
+      "source_pixel": [
+        1638,
+        1047
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d5",
+        "c5d0",
+        "c5d2"
+      ]
+    },
+    {
+      "id": "c5d2",
+      "name": "右下城·城区3",
+      "type": "district",
+      "city": 5,
+      "district": 2,
+      "x": 0.860227,
+      "y": 0.924334,
+      "u": 0.860227,
+      "v": 0.924334,
+      "source_pixel": [
+        1809,
+        1041
+      ],
+      "obelisk": false,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "adjacent": [
+        "d5",
+        "c5d0",
+        "c5d1"
+      ]
+    },
+    {
+      "id": "d0",
+      "name": "左上城周边沙漠",
+      "type": "desert",
+      "city": 0,
+      "district": null,
+      "x": 0.234947,
+      "y": 0.300381,
+      "u": 0.234947,
+      "v": 0.300381,
+      "source_pixel": [
+        912,
+        343
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "military",
+          "x": 0.275525,
+          "y": 0.226986,
+          "u": 0.275525,
+          "v": 0.226986,
+          "source_pixel": [
+            950,
+            282
+          ],
+          "confidence": "high",
+          "home_city": 0
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "c0d0",
+        "c0d1",
+        "c0d2",
+        "d6",
+        "d10",
+        "t0"
+      ]
+    },
+    {
+      "id": "d1",
+      "name": "右上城周边沙漠",
+      "type": "desert",
+      "city": 1,
+      "district": null,
+      "x": 0.948414,
+      "y": 0.242063,
+      "u": 0.948414,
+      "v": 0.242063,
+      "source_pixel": [
+        1612,
+        289
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "military",
+          "x": 0.680264,
+          "y": 0.195857,
+          "u": 0.680264,
+          "v": 0.195857,
+          "source_pixel": [
+            1343,
+            255
+          ],
+          "confidence": "high",
+          "home_city": 1
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "c1d0",
+        "c1d1",
+        "c1d2",
+        "d8",
+        "t3"
+      ]
+    },
+    {
+      "id": "d2",
+      "name": "中左城周边沙漠",
+      "type": "desert",
+      "city": 2,
+      "district": null,
+      "x": 0.432016,
+      "y": 0.787665,
+      "u": 0.432016,
+      "v": 0.787665,
+      "source_pixel": [
+        1195,
+        864
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "military",
+          "x": 0.437954,
+          "y": 0.505217,
+          "u": 0.437954,
+          "v": 0.505217,
+          "source_pixel": [
+            1151,
+            531
+          ],
+          "confidence": "high",
+          "home_city": 2
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "c2d0",
+        "c2d1",
+        "c2d2",
+        "d6",
+        "d10",
+        "t0",
+        "d7"
+      ]
+    },
+    {
+      "id": "d3",
+      "name": "中右城周边沙漠",
+      "type": "desert",
+      "city": 3,
+      "district": null,
+      "x": 0.646924,
+      "y": 0.619179,
+      "u": 0.646924,
+      "v": 0.619179,
+      "source_pixel": [
+        1415,
+        648
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "military",
+          "x": 0.511222,
+          "y": 0.560402,
+          "u": 0.511222,
+          "v": 0.560402,
+          "source_pixel": [
+            1244,
+            587
+          ],
+          "confidence": "high",
+          "home_city": 3
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "c3d0",
+        "c3d1",
+        "c3d2",
+        "d8",
+        "t3",
+        "d9",
+        "d11"
+      ]
+    },
+    {
+      "id": "d4",
+      "name": "左下城周边沙漠",
+      "type": "desert",
+      "city": 4,
+      "district": null,
+      "x": 0.413364,
+      "y": 0.969058,
+      "u": 0.413364,
+      "v": 0.969058,
+      "source_pixel": [
+        1210,
+        1140
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "military",
+          "x": 0.459464,
+          "y": 0.905342,
+          "u": 0.459464,
+          "v": 0.905342,
+          "source_pixel": [
+            1259,
+            1034
+          ],
+          "confidence": "high",
+          "home_city": 4
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "c4d0",
+        "c4d1",
+        "c4d2",
+        "d7",
+        "t0"
+      ]
+    },
+    {
+      "id": "d5",
+      "name": "右下城周边沙漠",
+      "type": "desert",
+      "city": 5,
+      "district": null,
+      "x": 0.579837,
+      "y": 0.963463,
+      "u": 0.579837,
+      "v": 0.963463,
+      "source_pixel": [
+        1445,
+        1120
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "military",
+          "x": 0.50437,
+          "y": 0.945964,
+          "u": 0.50437,
+          "v": 0.945964,
+          "source_pixel": [
+            1333,
+            1096
+          ],
+          "confidence": "high",
+          "home_city": 5
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "c5d0",
+        "c5d1",
+        "c5d2",
+        "d9",
+        "d11",
+        "t3"
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "西侧上段方尖碑沙漠",
+      "type": "desert",
+      "city": null,
+      "district": null,
+      "x": 0.195223,
+      "y": 0.484665,
+      "u": 0.195223,
+      "v": 0.484665,
+      "source_pixel": [
+        875,
+        515
+      ],
+      "obelisk": true,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "d0",
+        "d10",
+        "d2",
+        "t0"
+      ]
+    },
+    {
+      "id": "d7",
+      "name": "西侧下段方尖碑沙漠",
+      "type": "desert",
+      "city": null,
+      "district": null,
+      "x": 0.269359,
+      "y": 0.80417,
+      "u": 0.269359,
+      "v": 0.80417,
+      "source_pixel": [
+        984,
+        894
+      ],
+      "obelisk": true,
+      "harbors": [
+        {
+          "type": "trading",
+          "x": 0.488396,
+          "y": 0.836007,
+          "u": 0.488396,
+          "v": 0.836007,
+          "source_pixel": [
+            1280,
+            929
+          ],
+          "confidence": "high",
+          "home_city": null
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "d2",
+        "t0",
+        "d4"
+      ]
+    },
+    {
+      "id": "d8",
+      "name": "东侧上段方尖碑沙漠",
+      "type": "desert",
+      "city": null,
+      "district": null,
+      "x": 0.774315,
+      "y": 0.328225,
+      "u": 0.774315,
+      "v": 0.328225,
+      "source_pixel": [
+        1468,
+        361
+      ],
+      "obelisk": true,
+      "harbors": [
+        {
+          "type": "trading",
+          "x": 0.601501,
+          "y": 0.252538,
+          "u": 0.601501,
+          "v": 0.252538,
+          "source_pixel": [
+            1278,
+            300
+          ],
+          "confidence": "high",
+          "home_city": null
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "d1",
+        "d3",
+        "t3"
+      ]
+    },
+    {
+      "id": "d9",
+      "name": "东侧下段方尖碑沙漠",
+      "type": "desert",
+      "city": null,
+      "district": null,
+      "x": 0.886178,
+      "y": 0.731319,
+      "u": 0.886178,
+      "v": 0.731319,
+      "source_pixel": [
+        1740,
+        773
+      ],
+      "obelisk": true,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "d3",
+        "t3",
+        "d11",
+        "d5"
+      ]
+    },
+    {
+      "id": "d10",
+      "name": "西侧内神庙外围绿地沙漠",
+      "type": "desert",
+      "city": null,
+      "district": null,
+      "x": 0.315403,
+      "y": 0.319997,
+      "u": 0.315403,
+      "v": 0.319997,
+      "source_pixel": [
+        997,
+        359
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "trading",
+          "x": 0.306423,
+          "y": 0.297713,
+          "u": 0.306423,
+          "v": 0.297713,
+          "source_pixel": [
+            986,
+            340
+          ],
+          "confidence": "high",
+          "home_city": null
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "d0",
+        "d6",
+        "t1",
+        "d2"
+      ]
+    },
+    {
+      "id": "d11",
+      "name": "东侧内神庙外围绿地沙漠",
+      "type": "desert",
+      "city": null,
+      "district": null,
+      "x": 0.641991,
+      "y": 0.859873,
+      "u": 0.641991,
+      "v": 0.859873,
+      "source_pixel": [
+        1490,
+        956
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "trading",
+          "x": 0.599752,
+          "y": 0.829835,
+          "u": 0.599752,
+          "v": 0.829835,
+          "source_pixel": [
+            1424,
+            915
+          ],
+          "confidence": "high",
+          "home_city": null
+        }
+      ],
+      "is_delta": false,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "d3",
+        "d9",
+        "t2",
+        "d5"
+      ]
+    },
+    {
+      "id": "d12",
+      "name": "三角洲沙漠",
+      "type": "desert",
+      "city": null,
+      "district": null,
+      "x": 0.380729,
+      "y": 0.151452,
+      "u": 0.380729,
+      "v": 0.151452,
+      "source_pixel": [
+        1048,
+        223
+      ],
+      "obelisk": false,
+      "harbors": [
+        {
+          "type": "military",
+          "x": 0.318544,
+          "y": 0.095075,
+          "u": 0.318544,
+          "v": 0.095075,
+          "source_pixel": [
+            984,
+            182
+          ],
+          "confidence": "high",
+          "home_city": null
+        }
+      ],
+      "is_delta": true,
+      "confidence": "high",
+      "center_note": "用于3D棋子摆放的区域内可见空地锚点，不一定是几何面积重心。",
+      "adjacent": [
+        "t4",
+        "sanctuary"
+      ]
+    },
+    {
+      "id": "t0",
+      "name": "西侧外缘神庙",
+      "type": "temple",
+      "subtype": "ordinary",
+      "city": null,
+      "district": null,
+      "x": 0.088964,
+      "y": 0.530587,
+      "u": 0.088964,
+      "v": 0.530587,
+      "source_pixel": [
+        752,
+        565
+      ],
+      "obelisk": true,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "night_prayer": 2,
+      "night_sacrifice_units": 0,
+      "temporary_points": 1,
+      "adjacent": [
+        "d0",
+        "d6",
+        "d2",
+        "d7",
+        "d4"
+      ]
+    },
+    {
+      "id": "t1",
+      "name": "西侧内神庙",
+      "type": "temple",
+      "subtype": "ordinary",
+      "city": null,
+      "district": null,
+      "x": 0.347258,
+      "y": 0.411493,
+      "u": 0.347258,
+      "v": 0.411493,
+      "source_pixel": [
+        1039,
+        441
+      ],
+      "obelisk": true,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "night_prayer": 3,
+      "night_sacrifice_units": 0,
+      "temporary_points": 1,
+      "adjacent": [
+        "d10"
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "东侧内神庙",
+      "type": "temple",
+      "subtype": "ordinary",
+      "city": null,
+      "district": null,
+      "x": 0.663389,
+      "y": 0.729725,
+      "u": 0.663389,
+      "v": 0.729725,
+      "source_pixel": [
+        1470,
+        779
+      ],
+      "obelisk": true,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "night_prayer": 3,
+      "night_sacrifice_units": 0,
+      "temporary_points": 1,
+      "adjacent": [
+        "d11"
+      ]
+    },
+    {
+      "id": "t3",
+      "name": "东侧外缘神庙",
+      "type": "temple",
+      "subtype": "ordinary",
+      "city": null,
+      "district": null,
+      "x": 0.933182,
+      "y": 0.439524,
+      "u": 0.933182,
+      "v": 0.439524,
+      "source_pixel": [
+        1667,
+        458
+      ],
+      "obelisk": true,
+      "harbors": [],
+      "is_delta": false,
+      "confidence": "high",
+      "night_prayer": 2,
+      "night_sacrifice_units": 0,
+      "temporary_points": 1,
+      "adjacent": [
+        "d1",
+        "d8",
+        "d3",
+        "d9",
+        "d5"
+      ]
+    },
+    {
+      "id": "t4",
+      "name": "三角洲神庙",
+      "type": "temple",
+      "subtype": "delta",
+      "city": null,
+      "district": null,
+      "x": 0.440827,
+      "y": 0.250933,
+      "u": 0.440827,
+      "v": 0.250933,
+      "source_pixel": [
+        1118,
+        300
+      ],
+      "obelisk": true,
+      "harbors": [],
+      "is_delta": true,
+      "confidence": "high",
+      "night_prayer": 5,
+      "night_sacrifice_units": 1,
+      "temporary_points": 1,
+      "adjacent": [
+        "d12"
+      ]
+    },
+    {
+      "id": "sanctuary",
+      "name": "诸神圣殿／圣所",
+      "type": "sanctuary",
+      "city": null,
+      "district": null,
+      "x": 0.551218,
+      "y": 0.077491,
+      "u": 0.551218,
+      "v": 0.077491,
+      "source_pixel": [
+        1200,
+        169
+      ],
+      "obelisk": true,
+      "harbors": [],
+      "is_delta": true,
+      "confidence": "high",
+      "temporary_points": 0,
+      "night_sacrifice_units": 2,
+      "night_divine_points": 1,
+      "adjacent": [
+        "d12"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "a": "c0d0",
+      "b": "d0",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c0d1",
+      "b": "d0",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c0d2",
+      "b": "d0",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c0d0",
+      "b": "c0d1",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c0d0",
+      "b": "c0d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c0d1",
+      "b": "c0d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c1d0",
+      "b": "d1",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c1d1",
+      "b": "d1",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c1d2",
+      "b": "d1",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c1d0",
+      "b": "c1d1",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c1d0",
+      "b": "c1d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c1d1",
+      "b": "c1d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c2d0",
+      "b": "d2",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c2d1",
+      "b": "d2",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c2d2",
+      "b": "d2",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c2d0",
+      "b": "c2d1",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c2d0",
+      "b": "c2d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c2d1",
+      "b": "c2d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c3d0",
+      "b": "d3",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c3d1",
+      "b": "d3",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c3d2",
+      "b": "d3",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c3d0",
+      "b": "c3d1",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c3d0",
+      "b": "c3d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c3d1",
+      "b": "c3d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c4d0",
+      "b": "d4",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c4d1",
+      "b": "d4",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c4d2",
+      "b": "d4",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c4d0",
+      "b": "c4d1",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c4d0",
+      "b": "c4d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c4d1",
+      "b": "c4d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c5d0",
+      "b": "d5",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c5d1",
+      "b": "d5",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c5d2",
+      "b": "d5",
+      "type": "city_wall",
+      "confidence": "high",
+      "note": "城区外墙与自己的城市周边沙漠接壤；进入对手城区还须遵守城墙移动限制。"
+    },
+    {
+      "a": "c5d0",
+      "b": "c5d1",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c5d0",
+      "b": "c5d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "c5d1",
+      "b": "c5d2",
+      "type": "district_boundary",
+      "confidence": "high",
+      "note": "同一城内城区由可见墙线分隔；相邻不意味着可无视敌城进入限制。"
+    },
+    {
+      "a": "d0",
+      "b": "d6",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d0",
+      "b": "d10",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d0",
+      "b": "t0",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d6",
+      "b": "d10",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d6",
+      "b": "d2",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d6",
+      "b": "t0",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d10",
+      "b": "t1",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d10",
+      "b": "d2",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d2",
+      "b": "t0",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d2",
+      "b": "d7",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d7",
+      "b": "t0",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d7",
+      "b": "d4",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d4",
+      "b": "t0",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d1",
+      "b": "d8",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d1",
+      "b": "t3",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d8",
+      "b": "d3",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d8",
+      "b": "t3",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d3",
+      "b": "t3",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d3",
+      "b": "d9",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d3",
+      "b": "d11",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d9",
+      "b": "t3",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d9",
+      "b": "d11",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d9",
+      "b": "d5",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d11",
+      "b": "t2",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d11",
+      "b": "d5",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d5",
+      "b": "t3",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d12",
+      "b": "t4",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    },
+    {
+      "a": "d12",
+      "b": "sanctuary",
+      "type": "land",
+      "confidence": "high",
+      "note": "白色边界连续可见"
+    }
+  ],
+  "movement_rules": {
+    "river": "尼罗河不是可占领地区；河两岸没有普通陆地邻接。",
+    "harbors": "港口通行不是任意地理邻接：普通港口移动可从任意港口出发，到贸易港口，或到自己城市周边沙漠的军事港口。三角洲军事港口没有home_city，不可把它当免费通用入港点。",
+    "teleport": "传送目标为带方尖碑的地区；起点、费用、次数及神祇/能力例外由引擎按规则另外处理。",
+    "enemy_city": "跨入敌方城区有城墙起步位置限制；每次移动最多进入一个对手城区。"
+  },
+  "delta_structure": {
+    "region_ids": [
+      "d12",
+      "t4",
+      "sanctuary"
+    ],
+    "confirmed_land_edges": [
+      [
+        "d12",
+        "t4"
+      ],
+      [
+        "d12",
+        "sanctuary"
+      ]
+    ],
+    "no_direct_temple_sanctuary_edge": true,
+    "note": "三角洲的自然地形沙漠围绕圣所外侧，圣所与三角洲神庙之间可见沙漠细带；不要把两座建筑直接连为邻区。"
+  },
+  "pending_confirmation": [
+    {
+      "topic": "细小边界与像素锚点",
+      "status": "visible photo checked; no clean orthographic map comparison yet",
+      "note": "当前边由照片局部白线阅读确认；若后续得到正射地图，可作坐标微调。规则无需把尼罗河两岸画出陆地边。"
+    }
+  ]
+}

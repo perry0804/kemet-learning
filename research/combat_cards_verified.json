@@ -1,0 +1,893 @@
+{
+  "version": 1,
+  "scope": "Kemet: Blood and Sand / Rise of the Gods，标准8张战斗牌与4张已指定特殊牌。",
+  "sources": [
+    {
+      "id": "rog_aid_v50_indexed",
+      "url": "https://tesera.ru/images/items/2508538/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BA%D0%B0%20Kemet%20RoG.pdf",
+      "kind": "发行方2024 v50辅助页的镜像搜索索引",
+      "section": "BATTLE CARDS",
+      "retrieval": "实际取回完整本页索引文字；未下载该PDF；列间交错通过已知牌组合、正文与实体照片交叉核对。"
+    },
+    {
+      "id": "rog_rules",
+      "url": "https://www.zestolu.cz/files/34/4234.pdf",
+      "local_path": "research/rules.pdf",
+      "kind": "Matagot官方RoG规则书镜像",
+      "pages": [
+        3,
+        10,
+        11,
+        17
+      ],
+      "detail": "第11页明确3战力2伤害、2战力2盾；第17页明确4战力1伤害、2战力2伤害1盾、1战力3伤害。"
+    },
+    {
+      "id": "official_base_aid_de",
+      "url": "https://frostedgames.de/wp-content/uploads/2021/07/Spielerhilfe_WEB.pdf",
+      "publisher_page": "https://frostedgames.de/shop/kemet-vorbestellung/",
+      "kind": "德文发行方官方辅助页",
+      "visual_verification": {
+        "page": 5,
+        "method": "官方PDF在Google公共文档查看器中渲染，实际视觉检查牌面",
+        "viewer_url": "https://docs.google.com/gview?embedded=1&url=https%3A%2F%2Ffrostedgames.de%2Fwp-content%2Fuploads%2F2021%2F07%2FSpielerhilfe_WEB.pdf",
+        "screenshot": "research/di_base_verified.png",
+        "notes": "发行方直连本地TLS失败，公共查看器正常展示。"
+      }
+    },
+    {
+      "id": "base_self_damage_card_photo",
+      "url": "https://nerdsonearth.com/wp-content/uploads/2023/02/IMG_0417-scaled.jpg",
+      "page_url": "https://nerdsonearth.com/2023/02/board-game-review-kemet-blood-and-sand-by-matagot/",
+      "local_path": "research/battle_photo_3cards.jpg",
+      "kind": "实体牌照片，已视觉读取",
+      "detail": "＋5战力、－2黑色伤害，无其它数值。"
+    },
+    {
+      "id": "publisher_store_special_photo",
+      "url": "https://ipa-gameshop.com/4263-large_default/kemet-blood-and-sand.jpg",
+      "local_path": "research/battle_special_3_3.jpg",
+      "kind": "发行体系商店展示实体特殊牌图，已视觉读取"
+    }
+  ],
+  "standard_cards": [
+    {
+      "id": "base_1",
+      "source_label": "BASE 1",
+      "ui_label": "4战力 · 1伤害",
+      "copies_per_player": 1,
+      "strength": 4,
+      "ordinary_damage": 1,
+      "true_damage": 0,
+      "ordinary_defense": 0,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS",
+          "detail": "牌表的战力／伤害／防御组合为4/1/0；未列对敌真实伤害或绝对防御。"
+        }
+      ],
+      "uncertain": [],
+      "notes": "UI名称是数值描述，不是另造的实体牌名称。"
+    },
+    {
+      "id": "base_2",
+      "source_label": "BASE 2",
+      "ui_label": "3战力 · 2伤害",
+      "copies_per_player": 1,
+      "strength": 3,
+      "ordinary_damage": 2,
+      "true_damage": 0,
+      "ordinary_defense": 0,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS",
+          "detail": "牌表的战力／伤害／防御组合为3/2/0；未列对敌真实伤害或绝对防御。"
+        }
+      ],
+      "uncertain": [],
+      "notes": "UI名称是数值描述，不是另造的实体牌名称。"
+    },
+    {
+      "id": "base_3",
+      "source_label": "BASE 3",
+      "ui_label": "1战力 · 3伤害",
+      "copies_per_player": 1,
+      "strength": 1,
+      "ordinary_damage": 3,
+      "true_damage": 0,
+      "ordinary_defense": 0,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS",
+          "detail": "牌表的战力／伤害／防御组合为1/3/0；未列对敌真实伤害或绝对防御。"
+        }
+      ],
+      "uncertain": [],
+      "notes": "UI名称是数值描述，不是另造的实体牌名称。"
+    },
+    {
+      "id": "base_4",
+      "source_label": "BASE 4",
+      "ui_label": "2战力 · 2伤害 · 1防御",
+      "copies_per_player": 1,
+      "strength": 2,
+      "ordinary_damage": 2,
+      "true_damage": 0,
+      "ordinary_defense": 1,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS",
+          "detail": "牌表的战力／伤害／防御组合为2/2/1；未列对敌真实伤害或绝对防御。"
+        }
+      ],
+      "uncertain": [],
+      "notes": "UI名称是数值描述，不是另造的实体牌名称。"
+    },
+    {
+      "id": "base_5",
+      "source_label": "BASE 5",
+      "ui_label": "2战力 · 2防御",
+      "copies_per_player": 1,
+      "strength": 2,
+      "ordinary_damage": 0,
+      "true_damage": 0,
+      "ordinary_defense": 2,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS",
+          "detail": "牌表的战力／伤害／防御组合为2/0/2；未列对敌真实伤害或绝对防御。"
+        }
+      ],
+      "uncertain": [],
+      "notes": "UI名称是数值描述，不是另造的实体牌名称。"
+    },
+    {
+      "id": "base_6",
+      "source_label": "BASE 6",
+      "ui_label": "3战力 · 1防御",
+      "copies_per_player": 1,
+      "strength": 3,
+      "ordinary_damage": 0,
+      "true_damage": 0,
+      "ordinary_defense": 1,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS",
+          "detail": "牌表的战力／伤害／防御组合为3/0/1；未列对敌真实伤害或绝对防御。"
+        }
+      ],
+      "uncertain": [],
+      "notes": "UI名称是数值描述，不是另造的实体牌名称。"
+    },
+    {
+      "id": "base_7",
+      "source_label": "BASE 7",
+      "ui_label": "5战力 · 自损2",
+      "copies_per_player": 1,
+      "strength": 5,
+      "ordinary_damage": 0,
+      "true_damage": 0,
+      "ordinary_defense": 0,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 2,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS",
+          "detail": "BASE 7：＋5 Strength；伤亡步骤移除本军团2个单位。实体牌照片明确为－2黑色伤害。"
+        }
+      ],
+      "uncertain": [],
+      "notes": "自损是对自己的2点真实伤害，不是对敌伤害－2，也不是出牌前先减2战力。不得与对敌真实伤害加成相互抵消。"
+    },
+    {
+      "id": "base_8",
+      "source_label": "BASE 8",
+      "ui_label": "1战力 · 1伤害 · 3防御",
+      "copies_per_player": 1,
+      "strength": 1,
+      "ordinary_damage": 1,
+      "true_damage": 0,
+      "ordinary_defense": 3,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS",
+          "detail": "牌表的战力／伤害／防御组合为1/1/3；未列对敌真实伤害或绝对防御。"
+        }
+      ],
+      "uncertain": [],
+      "notes": "UI名称是数值描述，不是另造的实体牌名称。"
+    }
+  ],
+  "special_cards": [
+    {
+      "id": "wrryt_storm",
+      "name": "战车风暴",
+      "name_en": "Wrryt Storm",
+      "aliases": [],
+      "strength": 3,
+      "ordinary_damage": 3,
+      "true_damage": 0,
+      "ordinary_defense": 0,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "acquired_by": "红色二级能力“战车风暴”替换自己的1张战斗牌",
+      "verification": "verified_primary_text_and_card_photo",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS / WRRYT STORM"
+        },
+        {
+          "source": "official_base_aid_de",
+          "page": 1,
+          "detail": "OFFENSIVSTRATEGIE：＋3 Stärke, ＋3 Schaden"
+        },
+        {
+          "source": "publisher_store_special_photo",
+          "detail": "两张特殊牌之一，实体图明确＋3战力、＋3伤害"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "shetyw_defense",
+      "name": "龟甲防御",
+      "name_en": "Shetyw Defense",
+      "aliases": [
+        "Shettyw Barrier"
+      ],
+      "strength": 3,
+      "ordinary_damage": 0,
+      "true_damage": 0,
+      "ordinary_defense": 3,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [],
+      "acquired_by": "蓝色二级能力“龟甲防御”替换自己的1张战斗牌",
+      "verification": "verified_primary_text_and_card_photo",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS / SHETYW DEFENSE"
+        },
+        {
+          "source": "official_base_aid_de",
+          "page": 2,
+          "detail": "DEFENSIVSTRATEGIE：＋3 Stärke, ＋3 Schilde"
+        },
+        {
+          "source": "publisher_store_special_photo",
+          "detail": "两张特殊牌之一，实体图明确＋3战力、＋3普通盾"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "shield_of_onyx",
+      "name": "黑玛瑙之盾",
+      "name_en": "Shield of Onyx",
+      "aliases": [],
+      "strength": 2,
+      "ordinary_damage": 0,
+      "true_damage": 0,
+      "ordinary_defense": null,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": true,
+      "effects": [
+        {
+          "phase": "casualties",
+          "kind": "ignore_ordinary_damage",
+          "text": "本军团仅承受真实伤害，不承受普通伤害。"
+        }
+      ],
+      "acquired_by": "黑色三级替换候选“黑玛瑙之盾”替换自己的1张战斗牌",
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS / SHIELD OF ONYX",
+          "detail": "＋2 Strength；Casualties：Your Troop only suffer Unblockable Damage."
+        }
+      ],
+      "uncertain": [
+        "辅助页把效果写为免普通伤害；未视觉读取这张牌。防御数值不填一个杜撰的大数，也不当作绝对防御。"
+      ]
+    },
+    {
+      "id": "sobeks_wrath",
+      "name": "索贝克之怒",
+      "name_en": "Sobek’s Wrath",
+      "aliases": [],
+      "strength": 4,
+      "ordinary_damage": 0,
+      "true_damage": 0,
+      "ordinary_defense": 0,
+      "self_ordinary_damage": 0,
+      "self_true_damage": 0,
+      "absolute_defense": 0,
+      "ignore_ordinary_damage": false,
+      "effects": [
+        {
+          "phase": "battle_ending",
+          "kind": "recover_all_battle_cards",
+          "text": "收回自己所有战斗牌。"
+        }
+      ],
+      "acquired_by": "购买索贝克神祇时替换自己的1张战斗牌",
+      "verification": "verified_primary_text",
+      "evidence": [
+        {
+          "source": "rog_aid_v50_indexed",
+          "section": "BATTLE CARDS / SOBEK’S WRATH",
+          "detail": "＋4 Strength；End of Battle：Take back all your Battle cards."
+        }
+      ],
+      "uncertain": [],
+      "notes": "特殊牌可用于索贝克模型未参战的普通军团战斗。"
+    }
+  ],
+  "engine_notes": [
+    "所有8种标准牌每位玩家各1张；不可把重复绘制在对角的同一组数字计两次。",
+    "每次战斗选择两张不同的手牌：一张暗弃，一张实际打出。实际打出的牌最后正面弃置，暗弃牌始终不公开。",
+    "战斗卡全部用尽才收回；特殊牌与特定能力可提前收回。普通夜晚不会自动刷新战斗手牌。",
+    "先按未结算伤亡前的士兵与战力判胜，再算伤亡；＋5／－2牌不会先损兵再比战力。",
+    "self_true_damage与对敌true_damage应分开保存，不能做代数相抵。普通盾不抵挡真实自损。",
+    "黑玛瑙之盾免普通伤害属于独立效果，不等于绝对防御，也不应伪造为防御999。",
+    "四张特殊牌不默认在玩家起始手牌中；获得时替换1张原有战斗牌，因此通常仍是8张。",
+    "神祇本身不能把当前生命点当成士兵数计算基础战力。"
+  ],
+  "extra": {
+    "divine_intervention": {
+      "status": "base_deck_complete",
+      "shared_deck_total": 33,
+      "shared_deck_unique": 11,
+      "cards": [
+        {
+          "id": "war_rage",
+          "name_zh": "战争怒意",
+          "name_en": "War Rage",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 5,
+          "cost_pp": 0,
+          "phase": "battle",
+          "mechanics": {
+            "strength": 1
+          },
+          "effect": "本军团在本次战斗获得＋1战力。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": ""
+        },
+        {
+          "id": "bloody_battle",
+          "name_zh": "浴血战斗",
+          "name_en": "Bloody Battle",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 3,
+          "cost_pp": 0,
+          "phase": "battle",
+          "mechanics": {
+            "ordinary_damage": 1
+          },
+          "effect": "本军团在本次战斗获得＋1普通伤害。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": ""
+        },
+        {
+          "id": "bronze_wall",
+          "name_zh": "青铜之墙",
+          "name_en": "Bronze Wall",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 3,
+          "cost_pp": 0,
+          "phase": "battle",
+          "mechanics": {
+            "ordinary_defense": 1
+          },
+          "effect": "本军团在本次战斗获得＋1普通防御。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": ""
+        },
+        {
+          "id": "tactical_support",
+          "name_zh": "战术支援",
+          "name_en": "Tactical Support",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 4,
+          "cost_pp": 0,
+          "phase": "day",
+          "mechanics": {
+            "add_units": 2
+          },
+          "effect": "向自己的城区和／或自己的军团免费添加总计至多2个士兵。可能触发战斗，按招募行动的有关规则处理。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": "总计至多2个，不能误作每个军团各2个；不允许凭此给神祇补生命或在任意空野外新建军团。"
+        },
+        {
+          "id": "war_fury",
+          "name_zh": "战争狂怒",
+          "name_en": "War Fury",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 2,
+          "cost_pp": 1,
+          "phase": "battle",
+          "mechanics": {
+            "strength": 2
+          },
+          "effect": "本军团在本次战斗获得＋2战力。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": ""
+        },
+        {
+          "id": "bloodbath",
+          "name_zh": "血洗",
+          "name_en": "Bloodbath",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 2,
+          "cost_pp": 1,
+          "phase": "battle",
+          "mechanics": {
+            "ordinary_damage": 2
+          },
+          "effect": "本军团在本次战斗获得＋2普通伤害。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": ""
+        },
+        {
+          "id": "iron_wall",
+          "name_zh": "钢铁之墙",
+          "name_en": "Iron Wall",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 2,
+          "cost_pp": 1,
+          "phase": "battle",
+          "mechanics": {
+            "ordinary_defense": 2
+          },
+          "effect": "本军团在本次战斗获得＋2普通防御。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": ""
+        },
+        {
+          "id": "raining_fire",
+          "name_zh": "火雨",
+          "name_en": "Raining Fire",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 4,
+          "cost_pp": 1,
+          "phase": "day",
+          "mechanics": {
+            "remove_opposing_units": 1
+          },
+          "effect": "从一个对手军团中移除1个士兵。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": "v50文字限定对手军团。白昼牌不能在战斗过程中临时追加，也不因为移除敌方最后一个士兵就获得基础战斗分。"
+        },
+        {
+          "id": "transfer",
+          "name_zh": "传送",
+          "name_en": "Transfer",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 3,
+          "cost_pp": 0,
+          "phase": "move",
+          "mechanics": {
+            "free_teleport": true,
+            "teleport_from_any_zone": true,
+            "destination_requires_obelisk": true
+          },
+          "effect": "本次移动行动中，该军团可从任意地区免费传送到有方尖碑的地区。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": "这张神谕本身费用为0。不能沿用初版Kemet中Teleportation／Transfer的1费用。它不提供额外一次传送；仍受单次移动行动的通常传送次数限制。"
+        },
+        {
+          "id": "swiftness",
+          "name_zh": "迅捷",
+          "name_en": "Swiftness",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 2,
+          "cost_pp": 0,
+          "phase": "move_start",
+          "mechanics": {
+            "land_moves": 1
+          },
+          "effect": "在自己的移动行动开始时，本军团获得＋1普通移动。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": ""
+        },
+        {
+          "id": "prayer",
+          "name_zh": "祈祷",
+          "name_en": "Prayer",
+          "zh_name_status": "供网页显示的简体释名，不声称与用户实体中文版译名完全相同",
+          "copies_in_shared_deck": 3,
+          "cost_pp": 0,
+          "phase": "day",
+          "mechanics": {
+            "prayer_gain": 2
+          },
+          "effect": "获得2点祈祷值。",
+          "verification": {
+            "copies": "verified_primary_text",
+            "effect": "verified_primary_text",
+            "cost": "verified_primary_card_image"
+          },
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVINE INTERVENTION CARDS",
+              "detail": "名称、重复数量和效果文字"
+            },
+            {
+              "source": "official_base_aid_de",
+              "page": 5,
+              "detail": "通过公共文档查看器实际视觉读取卡牌左上费用；无费用图标记为0，1个祈祷图标为1。",
+              "local_screenshot": "research/di_base_verified.png"
+            }
+          ],
+          "uncertain": [],
+          "notes": "此效果是直接获得祈祷值，不是执行“祈祷行动”，因此不自动触发仅在祈祷行动生效的能力。"
+        }
+      ],
+      "separately_assigned_cards": [
+        {
+          "id": "diversion",
+          "name_zh": "佯动",
+          "name_en": "Diversion",
+          "copies_per_player": 1,
+          "copies_for_six_players": 6,
+          "cost_pp": 0,
+          "phase": "battle",
+          "shuffle_into_shared_deck": false,
+          "can_discard_for_other_effect": false,
+          "effect": "无实际效果，仅用于虚张声势；揭示后收回手牌，不能为任何其他效果弃掉。",
+          "evidence": [
+            {
+              "source": "rog_aid_v50_indexed",
+              "section": "DIVERSION (x6)"
+            },
+            {
+              "source": "rog_rules",
+              "page": 5,
+              "detail": "每人单独获得1张Diversion"
+            }
+          ],
+          "uncertain": []
+        }
+      ],
+      "count_reconciliation": {
+        "base_shared_deck": 33,
+        "base_five_player_diversions": 5,
+        "base_box_total": 38,
+        "six_player_diversions": 6,
+        "six_player_total_before_optional_modules": 39,
+        "explanation": "33张随机抽取的神谕与每人单独配发的佯动分开。基础版38张总组件可由33＋5组成；六人各配1张佯动后为33＋6。不要把佯动洗进公共牌堆。"
+      },
+      "optional_additions_not_in_base33": [
+        {
+          "name_en": "Bloody Attack",
+          "copies": 2,
+          "phase": "battle",
+          "effect": "本军团＋1战力、＋1普通伤害。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        },
+        {
+          "name_en": "Defensive Strike",
+          "copies": 2,
+          "phase": "battle",
+          "effect": "本军团＋1普通伤害、＋1普通防御。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        },
+        {
+          "name_en": "Deadly Wound",
+          "copies": 2,
+          "phase": "battle",
+          "effect": "本军团＋1真实伤害。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        },
+        {
+          "name_en": "Ultimate Shield",
+          "copies": 1,
+          "phase": "battle",
+          "effect": "本军团＋1绝对防御。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        },
+        {
+          "name_en": "Unexpected Reinforcement",
+          "copies": 2,
+          "phase": "recruit",
+          "effect": "免费添加至多3个士兵。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        },
+        {
+          "name_en": "Protected Attack",
+          "copies": 1,
+          "phase": "battle",
+          "effect": "本军团＋1战力、＋1普通防御。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        },
+        {
+          "name_en": "Military Ceremony",
+          "copies": 2,
+          "phase": "day",
+          "effect": "选择一个自己控制的神庙，获得该庙提供的祈祷值；三角洲神庙需要移除1个士兵。此祈祷收入计为一项整体效果。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        },
+        {
+          "name_en": "Planned Attack",
+          "copies": 2,
+          "phase": "battle",
+          "effect": "本军团＋2战力、＋2普通防御。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        },
+        {
+          "name_en": "Unhoped Assistance",
+          "copies": 2,
+          "phase": "day",
+          "effect": "向自己的城区和／或自己的军团免费添加总计至多4个士兵；可能触发战斗，依招募规则处理。",
+          "cost_pp": null,
+          "status": "effect_and_count_verified_cost_pending"
+        }
+      ],
+      "optional_additions_notes": "以上9种共16张来自辅助页额外卡区，不自动并入33张本体随机牌堆；费用尚未核完，不能把null当成0。Assemble为团队模式专用，此次六人个人战不使用。",
+      "deck_rules": [
+        "普通神谕手牌没有一般数量上限；手牌张数公开，牌面隐藏。",
+        "共享牌堆为空时洗混共享弃牌堆形成新的牌堆；已在玩家手中的牌不参与洗牌。",
+        "战斗类神谕在军事会议时选择，正面对决时一起揭示并支付费用；普通情况下不能看完对手牌再追加。",
+        "白昼类神谕在自己的回合行动前后使用，不能在战斗中使用。",
+        "移动类神谕只用于移动行动；迅捷须在计算普通移动次数的起始阶段使用。",
+        "祈祷、补兵等基础类型效果必须按时机和目标检查，不能把所有神谕都当成战斗数值加成。",
+        "初始每位玩家抽取2张公共神谕，再另配1张自己的佯动；六人时公共牌堆发走12张后剩21张。",
+        "费用字段表示印刷基础费用；应用已合法取得且适用的减费能力后再检验可支付性。"
+      ]
+    }
+  }
+}
